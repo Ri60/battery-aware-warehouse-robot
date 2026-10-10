@@ -17,21 +17,11 @@ def print_result(name, result):
 
     if not result["success"]:
         print("No feasible route found.")
-        print(
-            "Nodes expanded:",
-            result["nodes_expanded"],
-        )
+        print("Nodes expanded:", result["nodes_expanded"])
         return
 
-    print(
-        "Total cost:",
-        result["total_cost"],
-    )
-
-    print(
-        "Nodes expanded:",
-        result["nodes_expanded"],
-    )
+    print("Total cost:", result["total_cost"])
+    print("Nodes expanded:", result["nodes_expanded"])
 
     print("\nActions:")
 
@@ -40,7 +30,6 @@ def print_result(name, result):
 
 
 def main():
-    # Seed makes this warehouse reproducible.
     warehouse = generate_warehouse(
         rows=8,
         cols=8,
@@ -53,56 +42,25 @@ def main():
         seed=42,
         start=(0, 0),
         goal=(7, 7),
+        ensure_solution=True,
+        max_attempts=200,
     )
 
     print("\nBattery-Aware Warehouse Delivery Robot")
     print("=" * 55)
 
-    print(
-        "Grid size:",
-        warehouse.rows,
-        "x",
-        warehouse.cols,
-    )
+    print("Grid size:", warehouse.rows, "x", warehouse.cols)
+    print("Start:", warehouse.start)
+    print("Goal:", warehouse.goal)
+    print("Battery capacity:", warehouse.battery_capacity)
+    print("Initial battery:", warehouse.initial_battery)
+    print("Chargers:", warehouse.chargers)
+    print("Blocked cells:", len(warehouse.blocked_cells))
 
-    print(
-        "Start:",
-        warehouse.start,
-    )
+    display_warehouse(warehouse)
 
-    print(
-        "Goal:",
-        warehouse.goal,
-    )
-
-    print(
-        "Battery capacity:",
-        warehouse.battery_capacity,
-    )
-
-    print(
-        "Initial battery:",
-        warehouse.initial_battery,
-    )
-
-    print(
-        "Chargers:",
-        warehouse.chargers,
-    )
-
-    print(
-        "Blocked cells:",
-        len(warehouse.blocked_cells),
-    )
-
-    display_warehouse(
-        warehouse
-    )
-
-    # Run all three algorithms on the exact same instance.
-    ucs_result = uniform_cost_search(
-        warehouse
-    )
+    # All three algorithms run on the exact same warehouse.
+    ucs_result = uniform_cost_search(warehouse)
 
     greedy_result = greedy_best_first_search(
         warehouse
@@ -151,9 +109,7 @@ def main():
         "A*": astar_result,
     }
 
-    display_summary(
-        results
-    )
+    display_summary(results)
 
 
 if __name__ == "__main__":
