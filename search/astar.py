@@ -1,0 +1,211 @@
+import heapq
+from itertools import count
+
+from warehouse.state import State
+from search.heuristics import primary_heuristic
+
+
+def reconstruct_path(parent, action_taken, goal_state):
+    path = []
+    actions = []
+
+    current = goal_state
+
+    while current is not None:
+        path.append(current)
+
+        if current in action_taken:
+            actions.append(action_taken[current])
+
+        current = parent.get(current)
+
+    path.reverse()
+    actions.reverse()
+
+    return path, actions
+
+
+def a_star_search(warehouse):
+    """
+    Battery-aware A* Search.
+
+    Priority:
+        f(n) = g(n) + h(n)
+
+    where:
+        g(n) = accumulated movement + charging time
+        h(n) = estimated remaining travel time
+    """
+
+    start_state = State(
+        row=warehouse.start[0],
+        col=warehouse.start[1],
+        battery=warehouse.initial_battery,
+    )
+
+    frontier = []
+    tie_breaker = count()
+
+    start_h = primary_heuristic(
+        start_state,
+        warehouse,
+    )
+
+    heapq.heappush(
+        frontier,
+        (
+            start_h,
+            next(tie_breaker),
+            start_state,
+        ),
+    )
+
+    best_cost = {
+        start_state: 0
+    }
+
+    parent = {
+        start_state: None
+    }
+
+    action_taken = {}
+
+    nodes_expanded = 0
+
+    while frontier:
+        _, _, current_state = heapq.heappop(frontier)
+
+        current_cost = best_cost.get(current_state)
+
+        if current_cost is None:
+            continue
+
+        nodes_expanded += 1
+
+        if current_state.position == warehouse.goal:
+            path, actions = reconstruct_path(
+                parent,
+                action_taken,
+                current_state,
+            )
+
+            return {
+                "success": True,
+                "path": path,
+                "actions": actions,
+                "total_cost": current_cost,
+                "nodes_expanded": nodes_expanded,
+            }
+
+        # Move actions
+        if current_state.battery > 0:
+            neighbors = warehouse.get_neighbors(
+                current_state.row,
+                current_state.col,
+            )
+
+            for neighbor in neighbors:
+                new_battery = warehouse.battery_after_move(
+                    current_state.battery
+                )
+
+                if new_battery is None:
+                    continue
+
+                next_state = State(
+                    row=neighbor[0],
+                    col=neighbor[1],
+                    battery=new_battery,
+                )
+
+                movement_time = warehouse.get_movement_time(
+                    current_state.position,
+                    neighbor,
+                )
+
+                new_cost = current_cost + movement_time
+
+                if new_cost < best_cost.get(
+                    next_state,
+                    float("inf"),
+                ):
+                    best_cost[next_state] = new_cost
+                    parent[next_state] = current_state
+
+                    action_taken[next_state] = (
+                        f"Move {current_state.position} -> {neighbor} "
+                        f"(time={movement_time}, battery={new_battery})"
+                    )
+
+                    heuristic_value = primary_heuristic(
+                        next_state,
+                        warehouse,
+                    )
+
+                    priority = new_cost + heuristic_value
+
+                    heapq.heappush(
+                        frontier,
+                        (
+                            priority,
+                            next(tie_breaker),
+                            next_state,
+                        ),
+                    )
+
+        # Recharge action
+        if (
+            warehouse.is_charger(
+                current_state.row,
+                current_state.col,
+            )
+            and current_state.battery < warehouse.battery_capacity
+        ):
+            recharge_cost = warehouse.charging_time(
+                current_state.battery
+            )
+
+            recharged_state = State(
+                row=current_state.row,
+                col=current_state.col,
+                battery=warehouse.battery_capacity,
+            )
+
+            new_cost = current_cost + recharge_cost
+
+            if new_cost < best_cost.get(
+                recharged_state,
+                float("inf"),
+            ):
+                best_cost[recharged_state] = new_cost
+                parent[recharged_state] = current_state
+
+                action_taken[recharged_state] = (
+                    f"Recharge at {current_state.position} "
+                    f"(time={recharge_cost}, "
+                    f"battery={warehouse.battery_capacity})"
+                )
+
+                heuristic_value = primary_heuristic(
+                    recharged_state,
+                    warehouse,
+                )
+
+                priority = new_cost + heuristic_value
+
+                heapq.heappush(
+                    frontier,
+                    (
+                        priority,
+                        next(tie_breaker),
+                        recharged_state,
+                    ),
+                )
+
+    return {
+        "success": False,
+        "path": [],
+        "actions": [],
+        "total_cost": None,
+        "nodes_expanded": nodes_expanded,
+    }
