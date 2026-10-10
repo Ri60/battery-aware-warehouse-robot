@@ -16,6 +16,7 @@ class Warehouse:
         chargers=None,
         edge_costs=None,
         battery_capacity=DEFAULT_BATTERY_CAPACITY,
+        initial_battery=None,
     ):
         self.rows = rows
         self.cols = cols
@@ -25,6 +26,16 @@ class Warehouse:
         self.chargers = set(chargers or [])
         self.edge_costs = edge_costs or {}
         self.battery_capacity = battery_capacity
+
+        if initial_battery is None:
+            initial_battery = battery_capacity
+
+        if not 0 <= initial_battery <= battery_capacity:
+            raise ValueError(
+                "Initial battery must be between 0 and battery capacity."
+            )
+
+        self.initial_battery = initial_battery
 
     def in_bounds(self, row, col):
         return 0 <= row < self.rows and 0 <= col < self.cols
@@ -40,10 +51,10 @@ class Warehouse:
 
     def get_neighbors(self, row, col):
         directions = [
-            (-1, 0),
-            (1, 0),
-            (0, -1),
-            (0, 1),
+            (-1, 0),  # up
+            (1, 0),   # down
+            (0, -1),  # left
+            (0, 1),   # right
         ]
 
         neighbors = []
