@@ -1,5 +1,28 @@
 from maps.test_maps import charging_required_map
+
 from search.ucs import uniform_cost_search
+from search.greedy import greedy_best_first_search
+
+
+def print_result(name, result):
+    print("\n" + "=" * 50)
+    print(name)
+    print("=" * 50)
+
+    if not result["success"]:
+        print("No feasible route found.")
+        return
+
+    print("Total cost:", result["total_cost"])
+    print("Nodes expanded:", result["nodes_expanded"])
+
+    print("\nStates in path:")
+    for state in result["path"]:
+        print(state)
+
+    print("\nActions:")
+    for action in result["actions"]:
+        print("-", action)
 
 
 def main():
@@ -16,25 +39,18 @@ def main():
     print("Chargers:", warehouse.chargers)
     print("Blocked cells:", warehouse.blocked_cells)
 
-    print("\nRunning Uniform Cost Search...\n")
+    ucs_result = uniform_cost_search(warehouse)
+    greedy_result = greedy_best_first_search(warehouse)
 
-    result = uniform_cost_search(warehouse)
+    print_result(
+        "Uniform Cost Search",
+        ucs_result,
+    )
 
-    if not result["success"]:
-        print("No feasible route found.")
-        return
-
-    print("Route found!")
-    print("Total cost:", result["total_cost"])
-    print("Nodes expanded:", result["nodes_expanded"])
-
-    print("\nStates in path:")
-    for state in result["path"]:
-        print(state)
-
-    print("\nActions:")
-    for action in result["actions"]:
-        print("-", action)
+    print_result(
+        "Greedy Best-First Search",
+        greedy_result,
+    )
 
 
 if __name__ == "__main__":
