@@ -4,6 +4,11 @@ from search.ucs import uniform_cost_search
 from search.greedy import greedy_best_first_search
 from search.astar import a_star_search
 
+from visualization.display import (
+    display_warehouse,
+    display_summary,
+)
+
 
 def print_result(name, result):
     print("\n" + "=" * 55)
@@ -17,11 +22,8 @@ def print_result(name, result):
     print("Total cost:", result["total_cost"])
     print("Nodes expanded:", result["nodes_expanded"])
 
-    print("\nStates in path:")
-    for state in result["path"]:
-        print(state)
-
     print("\nActions:")
+
     for action in result["actions"]:
         print("-", action)
 
@@ -29,8 +31,8 @@ def print_result(name, result):
 def main():
     warehouse = charging_required_map()
 
-    print("Battery-Aware Warehouse Robot")
-    print("-----------------------------")
+    print("\nBattery-Aware Warehouse Delivery Robot")
+    print("=" * 55)
 
     print("Grid size:", warehouse.rows, "x", warehouse.cols)
     print("Start:", warehouse.start)
@@ -38,15 +40,30 @@ def main():
     print("Battery capacity:", warehouse.battery_capacity)
     print("Initial battery:", warehouse.initial_battery)
     print("Chargers:", warehouse.chargers)
-    print("Blocked cells:", warehouse.blocked_cells)
 
+    # Show warehouse before searching.
+    display_warehouse(warehouse)
+
+    # Run algorithms.
     ucs_result = uniform_cost_search(warehouse)
-    greedy_result = greedy_best_first_search(warehouse)
-    astar_result = a_star_search(warehouse)
 
+    greedy_result = greedy_best_first_search(
+        warehouse
+    )
+
+    astar_result = a_star_search(
+        warehouse
+    )
+
+    # Individual results.
     print_result(
         "Uniform Cost Search",
         ucs_result,
+    )
+
+    display_warehouse(
+        warehouse,
+        ucs_result["path"],
     )
 
     print_result(
@@ -54,32 +71,29 @@ def main():
         greedy_result,
     )
 
+    display_warehouse(
+        warehouse,
+        greedy_result["path"],
+    )
+
     print_result(
         "A* Search",
         astar_result,
     )
 
-    print("\n" + "=" * 55)
-    print("SUMMARY")
-    print("=" * 55)
-
-    print(
-        "UCS:",
-        "cost =", ucs_result["total_cost"],
-        "| nodes =", ucs_result["nodes_expanded"],
+    display_warehouse(
+        warehouse,
+        astar_result["path"],
     )
 
-    print(
-        "Greedy:",
-        "cost =", greedy_result["total_cost"],
-        "| nodes =", greedy_result["nodes_expanded"],
-    )
+    # Final comparison.
+    results = {
+        "UCS": ucs_result,
+        "Greedy Best-First": greedy_result,
+        "A*": astar_result,
+    }
 
-    print(
-        "A*:",
-        "cost =", astar_result["total_cost"],
-        "| nodes =", astar_result["nodes_expanded"],
-    )
+    display_summary(results)
 
 
 if __name__ == "__main__":
