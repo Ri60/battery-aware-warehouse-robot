@@ -1,0 +1,241 @@
+experiment,factor,factor_value,seed,algorithm,rows,cols,obstacle_density,charger_count,battery_capacity,initial_battery,min_movement_time,max_movement_time,success,total_cost,nodes_expanded,execution_time_ms,charging_stops,moves,suboptimality_ratio
+Movement Cost Distribution,movement_cost_range,1-1,0,UCS,8,8,0.15,3,12,12,1,1,True,22,269,2.0596999675035477,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,0,Greedy Best-First,8,8,0.15,3,12,12,1,1,True,25,19,0.27089996729046106,1,14,1.1363636363636365
+Movement Cost Distribution,movement_cost_range,1-1,0,A*,8,8,0.15,3,12,12,1,1,True,22,167,1.5233999583870173,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,1,UCS,8,8,0.15,3,12,12,1,1,True,20,276,2.008599927648902,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,1,Greedy Best-First,8,8,0.15,3,12,12,1,1,True,23,21,0.2893999917432666,1,14,1.15
+Movement Cost Distribution,movement_cost_range,1-1,1,A*,8,8,0.15,3,12,12,1,1,True,20,161,1.7955999355763197,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,2,UCS,8,8,0.15,3,12,12,1,1,True,21,323,3.2189999474212527,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,2,Greedy Best-First,8,8,0.15,3,12,12,1,1,True,26,23,0.33760000951588154,1,16,1.2380952380952381
+Movement Cost Distribution,movement_cost_range,1-1,2,A*,8,8,0.15,3,12,12,1,1,True,21,164,1.5622000209987164,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,3,UCS,8,8,0.15,3,12,12,1,1,True,19,402,2.8452000115066767,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,3,Greedy Best-First,8,8,0.15,3,12,12,1,1,True,26,31,0.3769000759348273,1,14,1.368421052631579
+Movement Cost Distribution,movement_cost_range,1-1,3,A*,8,8,0.15,3,12,12,1,1,True,19,277,2.8096999740228057,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,4,UCS,8,8,0.15,3,12,12,1,1,True,16,241,2.543899929150939,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,4,Greedy Best-First,8,8,0.15,3,12,12,1,1,True,27,30,0.5070000188425183,1,16,1.6875
+Movement Cost Distribution,movement_cost_range,1-1,4,A*,8,8,0.15,3,12,12,1,1,True,16,128,1.4146999455988407,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,5,UCS,8,8,0.15,3,12,12,1,1,True,16,256,1.8684999085962772,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,5,Greedy Best-First,8,8,0.15,3,12,12,1,1,True,22,52,0.5327999824658036,1,14,1.375
+Movement Cost Distribution,movement_cost_range,1-1,5,A*,8,8,0.15,3,12,12,1,1,True,16,137,1.4560999115929008,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,6,UCS,8,8,0.15,3,12,12,1,1,True,20,277,2.047999994829297,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,6,Greedy Best-First,8,8,0.15,3,12,12,1,1,True,23,31,0.3896000562235713,1,14,1.15
+Movement Cost Distribution,movement_cost_range,1-1,6,A*,8,8,0.15,3,12,12,1,1,True,20,167,1.6684000147506595,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,7,UCS,8,8,0.15,3,12,12,1,1,True,16,212,1.742199994623661,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,7,Greedy Best-First,8,8,0.15,3,12,12,1,1,True,28,32,0.4477000329643488,1,16,1.75
+Movement Cost Distribution,movement_cost_range,1-1,7,A*,8,8,0.15,3,12,12,1,1,True,16,130,2.168699982576072,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,8,UCS,8,8,0.15,3,12,12,1,1,True,21,273,2.738200011663139,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,8,Greedy Best-First,8,8,0.15,3,12,12,1,1,True,26,17,0.2672000555321574,1,14,1.2380952380952381
+Movement Cost Distribution,movement_cost_range,1-1,8,A*,8,8,0.15,3,12,12,1,1,True,21,155,1.4842998934909701,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,9,UCS,8,8,0.15,3,12,12,1,1,True,20,257,1.9344999454915524,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,9,Greedy Best-First,8,8,0.15,3,12,12,1,1,True,30,44,0.49130001571029425,1,18,1.5
+Movement Cost Distribution,movement_cost_range,1-1,9,A*,8,8,0.15,3,12,12,1,1,True,20,139,1.69339997228235,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,10,UCS,8,8,0.15,3,12,12,1,1,True,25,371,2.742599928751588,1,18,1.0
+Movement Cost Distribution,movement_cost_range,1-1,10,Greedy Best-First,8,8,0.15,3,12,12,1,1,True,32,43,0.5616999696940184,1,20,1.28
+Movement Cost Distribution,movement_cost_range,1-1,10,A*,8,8,0.15,3,12,12,1,1,True,25,214,2.9921000823378563,1,18,1.0
+Movement Cost Distribution,movement_cost_range,1-1,11,UCS,8,8,0.15,3,12,12,1,1,True,20,240,2.3862000089138746,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,11,Greedy Best-First,8,8,0.15,3,12,12,1,1,True,28,26,0.4160000244155526,1,16,1.4
+Movement Cost Distribution,movement_cost_range,1-1,11,A*,8,8,0.15,3,12,12,1,1,True,20,157,1.5755000058561563,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,12,UCS,8,8,0.15,3,12,12,1,1,True,16,240,1.753099961206317,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,12,Greedy Best-First,8,8,0.15,3,12,12,1,1,True,26,28,0.32400002237409353,1,14,1.625
+Movement Cost Distribution,movement_cost_range,1-1,12,A*,8,8,0.15,3,12,12,1,1,True,16,128,1.3117999769747257,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,13,UCS,8,8,0.15,3,12,12,1,1,True,16,405,3.2402999931946397,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,13,Greedy Best-First,8,8,0.15,3,12,12,1,1,True,24,79,0.874800025485456,1,18,1.5
+Movement Cost Distribution,movement_cost_range,1-1,13,A*,8,8,0.15,3,12,12,1,1,True,16,134,2.0837999181821942,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,14,UCS,8,8,0.15,3,12,12,1,1,True,20,262,2.4492000229656696,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,14,Greedy Best-First,8,8,0.15,3,12,12,1,1,True,30,51,0.6030999356880784,1,18,1.5
+Movement Cost Distribution,movement_cost_range,1-1,14,A*,8,8,0.15,3,12,12,1,1,True,20,169,1.7676999559625983,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,15,UCS,8,8,0.15,3,12,12,1,1,True,24,210,1.561200013384223,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,15,Greedy Best-First,8,8,0.15,3,12,12,1,1,True,27,20,0.2932000206783414,1,16,1.125
+Movement Cost Distribution,movement_cost_range,1-1,15,A*,8,8,0.15,3,12,12,1,1,True,24,160,1.7610000213608146,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,16,UCS,8,8,0.15,3,12,12,1,1,True,20,274,1.9965999526903033,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,16,Greedy Best-First,8,8,0.15,3,12,12,1,1,True,25,20,0.29790005646646023,1,14,1.25
+Movement Cost Distribution,movement_cost_range,1-1,16,A*,8,8,0.15,3,12,12,1,1,True,20,170,2.7023000875487924,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,17,UCS,8,8,0.15,3,12,12,1,1,True,20,250,2.1247999975457788,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,17,Greedy Best-First,8,8,0.15,3,12,12,1,1,True,27,22,0.3076000139117241,1,16,1.35
+Movement Cost Distribution,movement_cost_range,1-1,17,A*,8,8,0.15,3,12,12,1,1,True,20,166,1.6065000090748072,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,18,UCS,8,8,0.15,3,12,12,1,1,True,22,201,1.4081000117585063,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,18,Greedy Best-First,8,8,0.15,3,12,12,1,1,True,28,40,0.46230002772063017,1,16,1.2727272727272727
+Movement Cost Distribution,movement_cost_range,1-1,18,A*,8,8,0.15,3,12,12,1,1,True,22,161,1.92910002078861,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,19,UCS,8,8,0.15,3,12,12,1,1,True,20,310,2.2607999853789806,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-1,19,Greedy Best-First,8,8,0.15,3,12,12,1,1,True,30,38,0.4483000375330448,1,18,1.5
+Movement Cost Distribution,movement_cost_range,1-1,19,A*,8,8,0.15,3,12,12,1,1,True,20,155,1.7239999724552035,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,0,UCS,8,8,0.15,3,12,12,1,3,True,35,339,3.95429995842278,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,0,Greedy Best-First,8,8,0.15,3,12,12,1,3,True,39,19,0.29280001763254404,1,14,1.1142857142857143
+Movement Cost Distribution,movement_cost_range,1-3,0,A*,8,8,0.15,3,12,12,1,3,True,35,236,2.967200009152293,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,1,UCS,8,8,0.15,3,12,12,1,3,True,36,293,2.2324000019580126,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,1,Greedy Best-First,8,8,0.15,3,12,12,1,3,True,45,21,0.30670000705868006,1,14,1.25
+Movement Cost Distribution,movement_cost_range,1-3,1,A*,8,8,0.15,3,12,12,1,3,True,36,262,3.1177999917417765,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,2,UCS,8,8,0.15,3,12,12,1,3,True,28,429,4.44650009740144,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,2,Greedy Best-First,8,8,0.15,3,12,12,1,3,True,40,25,0.3255999181419611,1,16,1.4285714285714286
+Movement Cost Distribution,movement_cost_range,1-3,2,A*,8,8,0.15,3,12,12,1,3,True,28,246,2.551899990066886,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,3,UCS,8,8,0.15,3,12,12,1,3,True,33,403,2.9643999878317118,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,3,Greedy Best-First,8,8,0.15,3,12,12,1,3,True,44,31,0.382099999114871,1,14,1.3333333333333333
+Movement Cost Distribution,movement_cost_range,1-3,3,A*,8,8,0.15,3,12,12,1,3,True,33,398,3.898700000718236,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,4,UCS,8,8,0.15,3,12,12,1,3,True,27,270,4.854799946770072,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,4,Greedy Best-First,8,8,0.15,3,12,12,1,3,True,42,30,1.0140000376850367,1,16,1.5555555555555556
+Movement Cost Distribution,movement_cost_range,1-3,4,A*,8,8,0.15,3,12,12,1,3,True,27,226,2.8424999909475446,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,5,UCS,8,8,0.15,3,12,12,1,3,True,21,251,2.012199955061078,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,5,Greedy Best-First,8,8,0.15,3,12,12,1,3,True,36,52,0.5443999543786049,1,14,1.7142857142857142
+Movement Cost Distribution,movement_cost_range,1-3,5,A*,8,8,0.15,3,12,12,1,3,True,21,178,2.1753000328317285,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,6,UCS,8,8,0.15,3,12,12,1,3,True,34,356,3.8219999987632036,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,6,Greedy Best-First,8,8,0.15,3,12,12,1,3,True,37,31,0.4792999243363738,1,14,1.088235294117647
+Movement Cost Distribution,movement_cost_range,1-3,6,A*,8,8,0.15,3,12,12,1,3,True,34,255,3.1491999980062246,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,7,UCS,8,8,0.15,3,12,12,1,3,True,25,223,2.195300068706274,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,7,Greedy Best-First,8,8,0.15,3,12,12,1,3,True,45,32,0.3792999777942896,1,16,1.8
+Movement Cost Distribution,movement_cost_range,1-3,7,A*,8,8,0.15,3,12,12,1,3,True,25,198,1.8520000157877803,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,8,UCS,8,8,0.15,3,12,12,1,3,True,30,282,2.176899928599596,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,8,Greedy Best-First,8,8,0.15,3,12,12,1,3,True,40,17,0.609199982136488,1,14,1.3333333333333333
+Movement Cost Distribution,movement_cost_range,1-3,8,A*,8,8,0.15,3,12,12,1,3,True,30,174,1.739799976348877,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,9,UCS,8,8,0.15,3,12,12,1,3,True,30,261,3.230100031942129,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,9,Greedy Best-First,8,8,0.15,3,12,12,1,3,True,44,44,0.5258000455796719,1,18,1.4666666666666666
+Movement Cost Distribution,movement_cost_range,1-3,9,A*,8,8,0.15,3,12,12,1,3,True,30,187,2.481199917383492,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,10,UCS,8,8,0.15,3,12,12,1,3,True,39,426,3.1986000249162316,1,18,1.0
+Movement Cost Distribution,movement_cost_range,1-3,10,Greedy Best-First,8,8,0.15,3,12,12,1,3,True,52,43,0.5286000669002533,1,20,1.3333333333333333
+Movement Cost Distribution,movement_cost_range,1-3,10,A*,8,8,0.15,3,12,12,1,3,True,39,331,3.993600024841726,1,18,1.0
+Movement Cost Distribution,movement_cost_range,1-3,11,UCS,8,8,0.15,3,12,12,1,3,True,29,248,2.9229000210762024,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,11,Greedy Best-First,8,8,0.15,3,12,12,1,3,True,42,19,0.3383000148460269,1,14,1.4482758620689655
+Movement Cost Distribution,movement_cost_range,1-3,11,A*,8,8,0.15,3,12,12,1,3,True,29,178,2.0192000083625317,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,12,UCS,8,8,0.15,3,12,12,1,3,True,35,461,4.154199967160821,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,12,Greedy Best-First,8,8,0.15,3,12,12,1,3,True,35,72,0.7932999869808555,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,12,A*,8,8,0.15,3,12,12,1,3,True,35,351,3.8966999854892492,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,13,UCS,8,8,0.15,3,12,12,1,3,True,24,444,3.889000043272972,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,13,Greedy Best-First,8,8,0.15,3,12,12,1,3,True,39,79,0.9506000205874443,1,18,1.625
+Movement Cost Distribution,movement_cost_range,1-3,13,A*,8,8,0.15,3,12,12,1,3,True,24,263,3.4175999462604523,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,14,UCS,8,8,0.15,3,12,12,1,3,True,29,256,2.059799968264997,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,14,Greedy Best-First,8,8,0.15,3,12,12,1,3,True,51,51,0.5793001037091017,1,18,1.7586206896551724
+Movement Cost Distribution,movement_cost_range,1-3,14,A*,8,8,0.15,3,12,12,1,3,True,29,217,2.266500028781593,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,15,UCS,8,8,0.15,3,12,12,1,3,True,34,240,1.9753000233322382,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,15,Greedy Best-First,8,8,0.15,3,12,12,1,3,True,40,20,0.2981000579893589,1,16,1.1764705882352942
+Movement Cost Distribution,movement_cost_range,1-3,15,A*,8,8,0.15,3,12,12,1,3,True,34,179,2.6322000194340944,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,16,UCS,8,8,0.15,3,12,12,1,3,True,28,277,2.574399928562343,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,16,Greedy Best-First,8,8,0.15,3,12,12,1,3,True,37,20,0.3152999561280012,1,14,1.3214285714285714
+Movement Cost Distribution,movement_cost_range,1-3,16,A*,8,8,0.15,3,12,12,1,3,True,28,206,2.0637999987229705,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,17,UCS,8,8,0.15,3,12,12,1,3,True,30,258,1.8825000151991844,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,17,Greedy Best-First,8,8,0.15,3,12,12,1,3,True,41,22,0.292200013063848,1,16,1.3666666666666667
+Movement Cost Distribution,movement_cost_range,1-3,17,A*,8,8,0.15,3,12,12,1,3,True,30,210,1.9920999184250832,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,18,UCS,8,8,0.15,3,12,12,1,3,True,33,207,1.4877000357955694,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,18,Greedy Best-First,8,8,0.15,3,12,12,1,3,True,45,40,0.4600000102072954,1,16,1.3636363636363635
+Movement Cost Distribution,movement_cost_range,1-3,18,A*,8,8,0.15,3,12,12,1,3,True,33,175,2.827799995429814,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,19,UCS,8,8,0.15,3,12,12,1,3,True,27,275,2.202900010161102,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-3,19,Greedy Best-First,8,8,0.15,3,12,12,1,3,True,48,38,0.5014999769628048,1,18,1.7777777777777777
+Movement Cost Distribution,movement_cost_range,1-3,19,A*,8,8,0.15,3,12,12,1,3,True,27,179,1.7905000131577253,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,0,UCS,8,8,0.15,3,12,12,1,5,True,40,346,2.9375999001786113,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,0,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,52,19,0.2878999803215265,1,14,1.3
+Movement Cost Distribution,movement_cost_range,1-5,0,A*,8,8,0.15,3,12,12,1,5,True,40,246,2.5599999353289604,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,1,UCS,8,8,0.15,3,12,12,1,5,True,42,270,2.5813999818637967,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,1,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,54,21,0.4360000602900982,1,14,1.2857142857142858
+Movement Cost Distribution,movement_cost_range,1-5,1,A*,8,8,0.15,3,12,12,1,5,True,42,221,3.7071999395266175,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,2,UCS,8,8,0.15,3,12,12,1,5,True,37,429,3.3186000073328614,1,16,1.0
+Movement Cost Distribution,movement_cost_range,1-5,2,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,60,97,1.0915000457316637,1,20,1.6216216216216217
+Movement Cost Distribution,movement_cost_range,1-5,2,A*,8,8,0.15,3,12,12,1,5,True,37,427,4.656300065107644,1,16,1.0
+Movement Cost Distribution,movement_cost_range,1-5,3,UCS,8,8,0.15,3,12,12,1,5,True,44,400,4.526500008068979,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,3,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,54,31,0.39199995808303356,1,14,1.2272727272727273
+Movement Cost Distribution,movement_cost_range,1-5,3,A*,8,8,0.15,3,12,12,1,5,True,44,392,3.9413999766111374,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,4,UCS,8,8,0.15,3,12,12,1,5,True,37,293,2.3875999031588435,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,4,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,55,30,0.41019998025149107,1,16,1.4864864864864864
+Movement Cost Distribution,movement_cost_range,1-5,4,A*,8,8,0.15,3,12,12,1,5,True,37,228,2.562799956649542,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,5,UCS,8,8,0.15,3,12,12,1,5,True,35,282,2.8119999915361404,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,5,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,48,52,0.5649999948218465,1,14,1.3714285714285714
+Movement Cost Distribution,movement_cost_range,1-5,5,A*,8,8,0.15,3,12,12,1,5,True,35,270,2.6311000110581517,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,6,UCS,8,8,0.15,3,12,12,1,5,True,44,330,2.597399987280369,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,6,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,51,31,0.3597000613808632,1,14,1.1590909090909092
+Movement Cost Distribution,movement_cost_range,1-5,6,A*,8,8,0.15,3,12,12,1,5,True,44,256,2.734100096859038,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,7,UCS,8,8,0.15,3,12,12,1,5,True,40,285,2.2353000240400434,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,7,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,61,32,0.4149000160396099,1,16,1.525
+Movement Cost Distribution,movement_cost_range,1-5,7,A*,8,8,0.15,3,12,12,1,5,True,40,269,3.207799978554249,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,8,UCS,8,8,0.15,3,12,12,1,5,True,43,364,2.8919000178575516,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,8,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,52,17,0.2541999565437436,1,14,1.2093023255813953
+Movement Cost Distribution,movement_cost_range,1-5,8,A*,8,8,0.15,3,12,12,1,5,True,43,245,2.573499921709299,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,9,UCS,8,8,0.15,3,12,12,1,5,True,36,241,1.8545999191701412,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,9,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,60,44,0.5025999853387475,1,18,1.6666666666666667
+Movement Cost Distribution,movement_cost_range,1-5,9,A*,8,8,0.15,3,12,12,1,5,True,36,180,1.8338999943807721,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,10,UCS,8,8,0.15,3,12,12,1,5,True,57,433,3.7444999907165766,1,18,1.0
+Movement Cost Distribution,movement_cost_range,1-5,10,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,69,43,0.6046000635251403,1,20,1.2105263157894737
+Movement Cost Distribution,movement_cost_range,1-5,10,A*,8,8,0.15,3,12,12,1,5,True,57,398,3.8944000843912363,1,18,1.0
+Movement Cost Distribution,movement_cost_range,1-5,11,UCS,8,8,0.15,3,12,12,1,5,True,28,208,1.5768000157549977,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,11,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,62,18,0.26899995282292366,1,14,2.2142857142857144
+Movement Cost Distribution,movement_cost_range,1-5,11,A*,8,8,0.15,3,12,12,1,5,True,28,182,1.9002999179065228,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,12,UCS,8,8,0.15,3,12,12,1,5,True,45,300,2.4941000156104565,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,12,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,51,45,0.5731999408453703,1,14,1.1333333333333333
+Movement Cost Distribution,movement_cost_range,1-5,12,A*,8,8,0.15,3,12,12,1,5,True,45,223,3.028300008736551,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,13,UCS,8,8,0.15,3,12,12,1,5,True,43,460,3.5315999994054437,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,13,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,68,79,0.8351999567821622,1,18,1.5813953488372092
+Movement Cost Distribution,movement_cost_range,1-5,13,A*,8,8,0.15,3,12,12,1,5,True,43,435,4.126899992115796,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,14,UCS,8,8,0.15,3,12,12,1,5,True,41,267,2.0297999726608396,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,14,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,58,51,0.5937999812886119,1,18,1.4146341463414633
+Movement Cost Distribution,movement_cost_range,1-5,14,A*,8,8,0.15,3,12,12,1,5,True,41,250,2.9369000112637877,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,15,UCS,8,8,0.15,3,12,12,1,5,True,41,273,2.4988000513985753,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,15,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,57,20,0.29690004885196686,1,16,1.3902439024390243
+Movement Cost Distribution,movement_cost_range,1-5,15,A*,8,8,0.15,3,12,12,1,5,True,41,198,2.065500011667609,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,16,UCS,8,8,0.15,3,12,12,1,5,True,35,239,1.8496999982744455,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,16,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,59,20,0.30229997355490923,1,14,1.6857142857142857
+Movement Cost Distribution,movement_cost_range,1-5,16,A*,8,8,0.15,3,12,12,1,5,True,35,182,1.755799981765449,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,17,UCS,8,8,0.15,3,12,12,1,5,True,43,236,1.787699991837144,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,17,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,54,22,0.29660004656761885,1,16,1.255813953488372
+Movement Cost Distribution,movement_cost_range,1-5,17,A*,8,8,0.15,3,12,12,1,5,True,43,222,2.143999910913408,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,18,UCS,8,8,0.15,3,12,12,1,5,True,51,263,2.4006000021472573,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,18,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,62,40,0.49480004236102104,1,16,1.2156862745098038
+Movement Cost Distribution,movement_cost_range,1-5,18,A*,8,8,0.15,3,12,12,1,5,True,51,235,2.3641999578103423,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,19,UCS,8,8,0.15,3,12,12,1,5,True,40,286,2.1476000547409058,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-5,19,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,64,38,0.4579999949783087,1,18,1.6
+Movement Cost Distribution,movement_cost_range,1-5,19,A*,8,8,0.15,3,12,12,1,5,True,40,223,2.138999989256263,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,0,UCS,8,8,0.15,3,12,12,1,10,True,66,374,3.105300012975931,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,0,Greedy Best-First,8,8,0.15,3,12,12,1,10,True,89,19,0.2758000046014786,1,14,1.3484848484848484
+Movement Cost Distribution,movement_cost_range,1-10,0,A*,8,8,0.15,3,12,12,1,10,True,66,306,4.614299978129566,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,1,UCS,8,8,0.15,3,12,12,1,10,True,68,263,2.114900038577616,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,1,Greedy Best-First,8,8,0.15,3,12,12,1,10,True,89,21,0.31260005198419094,1,14,1.3088235294117647
+Movement Cost Distribution,movement_cost_range,1-10,1,A*,8,8,0.15,3,12,12,1,10,True,68,233,2.421199926175177,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,2,UCS,8,8,0.15,3,12,12,1,10,True,55,427,3.2789999386295676,2,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,2,Greedy Best-First,8,8,0.15,3,12,12,1,10,True,99,97,1.0676999809220433,1,20,1.8
+Movement Cost Distribution,movement_cost_range,1-10,2,A*,8,8,0.15,3,12,12,1,10,True,55,426,4.9103000201284885,2,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,3,UCS,8,8,0.15,3,12,12,1,10,True,68,394,3.45660001039505,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,3,Greedy Best-First,8,8,0.15,3,12,12,1,10,True,89,31,0.37670007441192865,1,14,1.3088235294117647
+Movement Cost Distribution,movement_cost_range,1-10,3,A*,8,8,0.15,3,12,12,1,10,True,68,388,3.663300070911646,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,4,UCS,8,8,0.15,3,12,12,1,10,True,64,344,2.8117001056671143,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,4,Greedy Best-First,8,8,0.15,3,12,12,1,10,True,91,30,0.3942999755963683,1,16,1.421875
+Movement Cost Distribution,movement_cost_range,1-10,4,A*,8,8,0.15,3,12,12,1,10,True,64,292,3.9977000560611486,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,5,UCS,8,8,0.15,3,12,12,1,10,True,60,289,2.2115999599918723,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,5,Greedy Best-First,8,8,0.15,3,12,12,1,10,True,82,52,0.5531999049708247,1,14,1.3666666666666667
+Movement Cost Distribution,movement_cost_range,1-10,5,A*,8,8,0.15,3,12,12,1,10,True,60,288,2.7429000474512577,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,6,UCS,8,8,0.15,3,12,12,1,10,True,72,326,2.6237000711262226,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,6,Greedy Best-First,8,8,0.15,3,12,12,1,10,True,90,31,0.3554000286385417,1,14,1.25
+Movement Cost Distribution,movement_cost_range,1-10,6,A*,8,8,0.15,3,12,12,1,10,True,72,279,2.916799974627793,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,7,UCS,8,8,0.15,3,12,12,1,10,True,64,285,2.633300027810037,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,7,Greedy Best-First,8,8,0.15,3,12,12,1,10,True,106,32,0.38840004708617926,1,16,1.65625
+Movement Cost Distribution,movement_cost_range,1-10,7,A*,8,8,0.15,3,12,12,1,10,True,64,284,2.6554999640211463,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,8,UCS,8,8,0.15,3,12,12,1,10,True,68,336,2.667499938979745,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,8,Greedy Best-First,8,8,0.15,3,12,12,1,10,True,83,17,0.24640001356601715,1,14,1.2205882352941178
+Movement Cost Distribution,movement_cost_range,1-10,8,A*,8,8,0.15,3,12,12,1,10,True,68,252,2.6179999113082886,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,9,UCS,8,8,0.15,3,12,12,1,10,True,58,231,1.8182001076638699,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,9,Greedy Best-First,8,8,0.15,3,12,12,1,10,True,101,44,0.5062000127509236,1,18,1.7413793103448276
+Movement Cost Distribution,movement_cost_range,1-10,9,A*,8,8,0.15,3,12,12,1,10,True,58,191,2.1631999406963587,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,10,UCS,8,8,0.15,3,12,12,1,10,True,97,435,3.2191999489441514,1,18,1.0
+Movement Cost Distribution,movement_cost_range,1-10,10,Greedy Best-First,8,8,0.15,3,12,12,1,10,True,116,43,0.5425999406725168,1,20,1.1958762886597938
+Movement Cost Distribution,movement_cost_range,1-10,10,A*,8,8,0.15,3,12,12,1,10,True,97,429,4.031999967992306,1,18,1.0
+Movement Cost Distribution,movement_cost_range,1-10,11,UCS,8,8,0.15,3,12,12,1,10,True,48,208,1.6121999360620975,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,11,Greedy Best-First,8,8,0.15,3,12,12,1,10,True,108,18,0.268499949015677,1,14,2.25
+Movement Cost Distribution,movement_cost_range,1-10,11,A*,8,8,0.15,3,12,12,1,10,True,48,205,2.09199998062104,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,12,UCS,8,8,0.15,3,12,12,1,10,True,70,275,2.3732000263407826,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,12,Greedy Best-First,8,8,0.15,3,12,12,1,10,True,91,45,0.6768000312149525,1,14,1.3
+Movement Cost Distribution,movement_cost_range,1-10,12,A*,8,8,0.15,3,12,12,1,10,True,70,242,2.679699915461242,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,13,UCS,8,8,0.15,3,12,12,1,10,True,77,461,3.791099996306002,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,13,Greedy Best-First,8,8,0.15,3,12,12,1,10,True,124,79,0.8997999830171466,1,18,1.6103896103896105
+Movement Cost Distribution,movement_cost_range,1-10,13,A*,8,8,0.15,3,12,12,1,10,True,77,459,4.833899904042482,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,14,UCS,8,8,0.15,3,12,12,1,10,True,67,268,2.2447999799624085,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,14,Greedy Best-First,8,8,0.15,3,12,12,1,10,True,97,51,0.5945999873802066,1,18,1.4477611940298507
+Movement Cost Distribution,movement_cost_range,1-10,14,A*,8,8,0.15,3,12,12,1,10,True,67,260,2.6163000147789717,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,15,UCS,8,8,0.15,3,12,12,1,10,True,65,309,2.666599932126701,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,15,Greedy Best-First,8,8,0.15,3,12,12,1,10,True,94,20,0.3003999590873718,1,16,1.4461538461538461
+Movement Cost Distribution,movement_cost_range,1-10,15,A*,8,8,0.15,3,12,12,1,10,True,65,244,2.6302000042051077,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,16,UCS,8,8,0.15,3,12,12,1,10,True,59,251,2.044699969701469,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,16,Greedy Best-First,8,8,0.15,3,12,12,1,10,True,104,20,0.3117999294772744,1,14,1.7627118644067796
+Movement Cost Distribution,movement_cost_range,1-10,16,A*,8,8,0.15,3,12,12,1,10,True,59,210,2.2951000137254596,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,17,UCS,8,8,0.15,3,12,12,1,10,True,73,240,2.267399919219315,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,17,Greedy Best-First,8,8,0.15,3,12,12,1,10,True,90,22,0.3135999431833625,1,16,1.2328767123287672
+Movement Cost Distribution,movement_cost_range,1-10,17,A*,8,8,0.15,3,12,12,1,10,True,73,230,2.300300053320825,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,18,UCS,8,8,0.15,3,12,12,1,10,True,83,263,2.1223999792709947,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,18,Greedy Best-First,8,8,0.15,3,12,12,1,10,True,103,40,0.4792999243363738,1,16,1.2409638554216869
+Movement Cost Distribution,movement_cost_range,1-10,18,A*,8,8,0.15,3,12,12,1,10,True,83,244,2.5074000004678965,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,19,UCS,8,8,0.15,3,12,12,1,10,True,63,274,2.201199997216463,1,14,1.0
+Movement Cost Distribution,movement_cost_range,1-10,19,Greedy Best-First,8,8,0.15,3,12,12,1,10,True,107,38,0.4746000049635768,1,18,1.6984126984126984
+Movement Cost Distribution,movement_cost_range,1-10,19,A*,8,8,0.15,3,12,12,1,10,True,63,241,2.4134999839589,1,14,1.0

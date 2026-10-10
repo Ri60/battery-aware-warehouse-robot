@@ -1,0 +1,301 @@
+experiment,factor,factor_value,seed,algorithm,rows,cols,obstacle_density,charger_count,battery_capacity,initial_battery,min_movement_time,max_movement_time,success,total_cost,nodes_expanded,execution_time_ms,charging_stops,moves,suboptimality_ratio
+Charger Availability,charger_count,0,0,UCS,8,8,0.15,0,12,12,1,5,False,,163,1.2181999627500772,0,0,
+Charger Availability,charger_count,0,0,Greedy Best-First,8,8,0.15,0,12,12,1,5,False,,163,1.4836000045761466,0,0,
+Charger Availability,charger_count,0,0,A*,8,8,0.15,0,12,12,1,5,False,,163,1.4958999818190932,0,0,
+Charger Availability,charger_count,0,1,UCS,8,8,0.15,0,12,12,1,5,False,,158,1.1003999970853329,0,0,
+Charger Availability,charger_count,0,1,Greedy Best-First,8,8,0.15,0,12,12,1,5,False,,158,1.4409000286832452,0,0,
+Charger Availability,charger_count,0,1,A*,8,8,0.15,0,12,12,1,5,False,,158,1.4729999238625169,0,0,
+Charger Availability,charger_count,0,2,UCS,8,8,0.15,0,12,12,1,5,False,,172,1.3255999656394124,0,0,
+Charger Availability,charger_count,0,2,Greedy Best-First,8,8,0.15,0,12,12,1,5,False,,172,1.6809001099318266,0,0,
+Charger Availability,charger_count,0,2,A*,8,8,0.15,0,12,12,1,5,False,,172,1.6264000441879034,0,0,
+Charger Availability,charger_count,0,3,UCS,8,8,0.15,0,12,12,1,5,False,,165,1.4414000324904919,0,0,
+Charger Availability,charger_count,0,3,Greedy Best-First,8,8,0.15,0,12,12,1,5,False,,165,1.6021999763324857,0,0,
+Charger Availability,charger_count,0,3,A*,8,8,0.15,0,12,12,1,5,False,,165,1.612899941392243,0,0,
+Charger Availability,charger_count,0,4,UCS,8,8,0.15,0,12,12,1,5,False,,170,1.2319000670686364,0,0,
+Charger Availability,charger_count,0,4,Greedy Best-First,8,8,0.15,0,12,12,1,5,False,,170,1.5608000103384256,0,0,
+Charger Availability,charger_count,0,4,A*,8,8,0.15,0,12,12,1,5,False,,170,1.7368000699207187,0,0,
+Charger Availability,charger_count,0,5,UCS,8,8,0.15,0,12,12,1,5,False,,183,1.4445999404415488,0,0,
+Charger Availability,charger_count,0,5,Greedy Best-First,8,8,0.15,0,12,12,1,5,False,,183,1.8593000713735819,0,0,
+Charger Availability,charger_count,0,5,A*,8,8,0.15,0,12,12,1,5,False,,183,2.0040000090375543,0,0,
+Charger Availability,charger_count,0,6,UCS,8,8,0.15,0,12,12,1,5,False,,167,1.3289999915286899,0,0,
+Charger Availability,charger_count,0,6,Greedy Best-First,8,8,0.15,0,12,12,1,5,False,,167,1.547900028526783,0,0,
+Charger Availability,charger_count,0,6,A*,8,8,0.15,0,12,12,1,5,False,,167,1.6564999241381884,0,0,
+Charger Availability,charger_count,0,7,UCS,8,8,0.15,0,12,12,1,5,False,,176,1.260999939404428,0,0,
+Charger Availability,charger_count,0,7,Greedy Best-First,8,8,0.15,0,12,12,1,5,False,,176,1.6623999690636992,0,0,
+Charger Availability,charger_count,0,7,A*,8,8,0.15,0,12,12,1,5,False,,176,1.7589000053703785,0,0,
+Charger Availability,charger_count,0,8,UCS,8,8,0.15,0,12,12,1,5,False,,155,1.2112000258639455,0,0,
+Charger Availability,charger_count,0,8,Greedy Best-First,8,8,0.15,0,12,12,1,5,False,,155,1.517999917268753,0,0,
+Charger Availability,charger_count,0,8,A*,8,8,0.15,0,12,12,1,5,False,,155,1.5632000286132097,0,0,
+Charger Availability,charger_count,0,9,UCS,8,8,0.15,0,12,12,1,5,False,,133,0.9529000381007791,0,0,
+Charger Availability,charger_count,0,9,Greedy Best-First,8,8,0.15,0,12,12,1,5,False,,133,1.1233999393880367,0,0,
+Charger Availability,charger_count,0,9,A*,8,8,0.15,0,12,12,1,5,False,,133,1.5700999647378922,0,0,
+Charger Availability,charger_count,0,10,UCS,8,8,0.15,0,12,12,1,5,False,,176,1.3133999891579151,0,0,
+Charger Availability,charger_count,0,10,Greedy Best-First,8,8,0.15,0,12,12,1,5,False,,176,1.596700050868094,0,0,
+Charger Availability,charger_count,0,10,A*,8,8,0.15,0,12,12,1,5,False,,176,1.6374998958781362,0,0,
+Charger Availability,charger_count,0,11,UCS,8,8,0.15,0,12,12,1,5,False,,187,1.408900017850101,0,0,
+Charger Availability,charger_count,0,11,Greedy Best-First,8,8,0.15,0,12,12,1,5,False,,187,1.7182999290525913,0,0,
+Charger Availability,charger_count,0,11,A*,8,8,0.15,0,12,12,1,5,False,,187,1.793400035239756,0,0,
+Charger Availability,charger_count,0,12,UCS,8,8,0.15,0,12,12,1,5,False,,85,0.562199973501265,0,0,
+Charger Availability,charger_count,0,12,Greedy Best-First,8,8,0.15,0,12,12,1,5,False,,85,0.7596000796183944,0,0,
+Charger Availability,charger_count,0,12,A*,8,8,0.15,0,12,12,1,5,False,,85,0.7375000277534127,0,0,
+Charger Availability,charger_count,0,13,UCS,8,8,0.15,0,12,12,1,5,False,,184,1.3867999659851193,0,0,
+Charger Availability,charger_count,0,13,Greedy Best-First,8,8,0.15,0,12,12,1,5,False,,184,1.6862000338733196,0,0,
+Charger Availability,charger_count,0,13,A*,8,8,0.15,0,12,12,1,5,False,,184,1.7862999811768532,0,0,
+Charger Availability,charger_count,0,14,UCS,8,8,0.15,0,12,12,1,5,False,,165,1.2061999877914786,0,0,
+Charger Availability,charger_count,0,14,Greedy Best-First,8,8,0.15,0,12,12,1,5,False,,165,1.5528000658378005,0,0,
+Charger Availability,charger_count,0,14,A*,8,8,0.15,0,12,12,1,5,False,,165,1.6040001064538956,0,0,
+Charger Availability,charger_count,0,15,UCS,8,8,0.15,0,12,12,1,5,False,,154,1.1270999675616622,0,0,
+Charger Availability,charger_count,0,15,Greedy Best-First,8,8,0.15,0,12,12,1,5,False,,154,1.4889000449329615,0,0,
+Charger Availability,charger_count,0,15,A*,8,8,0.15,0,12,12,1,5,False,,154,1.5143000055104494,0,0,
+Charger Availability,charger_count,0,16,UCS,8,8,0.15,0,12,12,1,5,False,,168,1.2782999547198415,0,0,
+Charger Availability,charger_count,0,16,Greedy Best-First,8,8,0.15,0,12,12,1,5,False,,168,1.597000053152442,0,0,
+Charger Availability,charger_count,0,16,A*,8,8,0.15,0,12,12,1,5,False,,168,2.0984000293537974,0,0,
+Charger Availability,charger_count,0,17,UCS,8,8,0.15,0,12,12,1,5,False,,170,2.14850006159395,0,0,
+Charger Availability,charger_count,0,17,Greedy Best-First,8,8,0.15,0,12,12,1,5,False,,170,1.474600052461028,0,0,
+Charger Availability,charger_count,0,17,A*,8,8,0.15,0,12,12,1,5,False,,170,1.5318000223487616,0,0,
+Charger Availability,charger_count,0,18,UCS,8,8,0.15,0,12,12,1,5,False,,159,1.1149999918416142,0,0,
+Charger Availability,charger_count,0,18,Greedy Best-First,8,8,0.15,0,12,12,1,5,False,,159,1.366000040434301,0,0,
+Charger Availability,charger_count,0,18,A*,8,8,0.15,0,12,12,1,5,False,,159,1.4160999562591314,0,0,
+Charger Availability,charger_count,0,19,UCS,8,8,0.15,0,12,12,1,5,False,,154,1.039199996739626,0,0,
+Charger Availability,charger_count,0,19,Greedy Best-First,8,8,0.15,0,12,12,1,5,False,,154,1.349200028926134,0,0,
+Charger Availability,charger_count,0,19,A*,8,8,0.15,0,12,12,1,5,False,,154,1.35709997266531,0,0,
+Charger Availability,charger_count,1,0,UCS,8,8,0.15,1,12,12,1,5,True,47,350,3.2770000398159027,1,14,1.0
+Charger Availability,charger_count,1,0,Greedy Best-First,8,8,0.15,1,12,12,1,5,True,59,52,0.634100055322051,1,16,1.2553191489361701
+Charger Availability,charger_count,1,0,A*,8,8,0.15,1,12,12,1,5,True,47,267,2.9629000928252935,1,14,1.0
+Charger Availability,charger_count,1,1,UCS,8,8,0.15,1,12,12,1,5,True,59,314,2.37360002938658,1,14,1.0
+Charger Availability,charger_count,1,1,Greedy Best-First,8,8,0.15,1,12,12,1,5,True,59,21,0.2906000008806586,1,14,1.0
+Charger Availability,charger_count,1,1,A*,8,8,0.15,1,12,12,1,5,True,59,251,2.4618000024929643,1,14,1.0
+Charger Availability,charger_count,1,2,UCS,8,8,0.15,1,12,12,1,5,False,,266,2.024700050242245,0,0,
+Charger Availability,charger_count,1,2,Greedy Best-First,8,8,0.15,1,12,12,1,5,False,,266,2.684999955818057,0,0,
+Charger Availability,charger_count,1,2,A*,8,8,0.15,1,12,12,1,5,False,,266,3.2822999637573957,0,0,
+Charger Availability,charger_count,1,3,UCS,8,8,0.15,1,12,12,1,5,True,49,353,2.6681999443098903,1,14,1.0
+Charger Availability,charger_count,1,3,Greedy Best-First,8,8,0.15,1,12,12,1,5,True,70,109,1.183499931357801,1,18,1.4285714285714286
+Charger Availability,charger_count,1,3,A*,8,8,0.15,1,12,12,1,5,True,49,292,3.0274000018835068,1,14,1.0
+Charger Availability,charger_count,1,4,UCS,8,8,0.15,1,12,12,1,5,True,34,204,1.4818999916315079,1,14,1.0
+Charger Availability,charger_count,1,4,Greedy Best-First,8,8,0.15,1,12,12,1,5,True,68,151,1.414499944075942,1,20,2.0
+Charger Availability,charger_count,1,4,A*,8,8,0.15,1,12,12,1,5,True,34,202,1.9054000731557608,1,14,1.0
+Charger Availability,charger_count,1,5,UCS,8,8,0.15,1,12,12,1,5,True,41,262,2.327500027604401,1,14,1.0
+Charger Availability,charger_count,1,5,Greedy Best-First,8,8,0.15,1,12,12,1,5,True,48,52,0.5869000451639295,1,14,1.170731707317073
+Charger Availability,charger_count,1,5,A*,8,8,0.15,1,12,12,1,5,True,41,251,2.5700998958200216,1,14,1.0
+Charger Availability,charger_count,1,6,UCS,8,8,0.15,1,12,12,1,5,True,47,238,1.7633999232202768,1,14,1.0
+Charger Availability,charger_count,1,6,Greedy Best-First,8,8,0.15,1,12,12,1,5,True,76,72,0.7267999462783337,1,20,1.6170212765957446
+Charger Availability,charger_count,1,6,A*,8,8,0.15,1,12,12,1,5,True,47,228,2.1732000168412924,1,14,1.0
+Charger Availability,charger_count,1,7,UCS,8,8,0.15,1,12,12,1,5,True,28,207,1.449699979275465,1,14,1.0
+Charger Availability,charger_count,1,7,Greedy Best-First,8,8,0.15,1,12,12,1,5,True,31,171,1.5913000097498298,1,14,1.1071428571428572
+Charger Availability,charger_count,1,7,A*,8,8,0.15,1,12,12,1,5,True,28,149,1.5109000960364938,1,14,1.0
+Charger Availability,charger_count,1,8,UCS,8,8,0.15,1,12,12,1,5,True,45,351,2.7804001001641154,1,14,1.0
+Charger Availability,charger_count,1,8,Greedy Best-First,8,8,0.15,1,12,12,1,5,True,65,63,1.308299950323999,1,18,1.4444444444444444
+Charger Availability,charger_count,1,8,A*,8,8,0.15,1,12,12,1,5,True,45,246,2.6655999245122075,1,14,1.0
+Charger Availability,charger_count,1,9,UCS,8,8,0.15,1,12,12,1,5,True,41,241,1.8485999898985028,1,14,1.0
+Charger Availability,charger_count,1,9,Greedy Best-First,8,8,0.15,1,12,12,1,5,True,45,81,0.8274000138044357,1,16,1.0975609756097562
+Charger Availability,charger_count,1,9,A*,8,8,0.15,1,12,12,1,5,True,41,176,1.8126999493688345,1,14,1.0
+Charger Availability,charger_count,1,10,UCS,8,8,0.15,1,12,12,1,5,False,,176,1.2629999546334147,0,0,
+Charger Availability,charger_count,1,10,Greedy Best-First,8,8,0.15,1,12,12,1,5,False,,176,1.6075000166893005,0,0,
+Charger Availability,charger_count,1,10,A*,8,8,0.15,1,12,12,1,5,False,,176,1.7062999540939927,0,0,
+Charger Availability,charger_count,1,11,UCS,8,8,0.15,1,12,12,1,5,False,,245,1.883799908682704,0,0,
+Charger Availability,charger_count,1,11,Greedy Best-First,8,8,0.15,1,12,12,1,5,False,,245,2.6518000522628427,0,0,
+Charger Availability,charger_count,1,11,A*,8,8,0.15,1,12,12,1,5,False,,245,2.4566000793129206,0,0,
+Charger Availability,charger_count,1,12,UCS,8,8,0.15,1,12,12,1,5,False,,85,0.5762000801041722,0,0,
+Charger Availability,charger_count,1,12,Greedy Best-First,8,8,0.15,1,12,12,1,5,False,,85,0.7697000401094556,0,0,
+Charger Availability,charger_count,1,12,A*,8,8,0.15,1,12,12,1,5,False,,85,0.7784999907016754,0,0,
+Charger Availability,charger_count,1,13,UCS,8,8,0.15,1,12,12,1,5,True,48,220,1.6456999583169818,1,14,1.0
+Charger Availability,charger_count,1,13,Greedy Best-First,8,8,0.15,1,12,12,1,5,True,49,163,1.578899915330112,1,14,1.0208333333333333
+Charger Availability,charger_count,1,13,A*,8,8,0.15,1,12,12,1,5,True,48,220,2.0936999935656786,1,14,1.0
+Charger Availability,charger_count,1,14,UCS,8,8,0.15,1,12,12,1,5,True,43,261,2.091499976813793,1,16,1.0
+Charger Availability,charger_count,1,14,Greedy Best-First,8,8,0.15,1,12,12,1,5,True,59,76,0.874500023201108,1,16,1.372093023255814
+Charger Availability,charger_count,1,14,A*,8,8,0.15,1,12,12,1,5,True,43,257,2.848199917934835,1,16,1.0
+Charger Availability,charger_count,1,15,UCS,8,8,0.15,1,12,12,1,5,True,61,238,1.842200057581067,1,18,1.0
+Charger Availability,charger_count,1,15,Greedy Best-First,8,8,0.15,1,12,12,1,5,True,66,114,1.1500000255182385,1,18,1.0819672131147542
+Charger Availability,charger_count,1,15,A*,8,8,0.15,1,12,12,1,5,True,61,179,1.7504999414086342,1,18,1.0
+Charger Availability,charger_count,1,16,UCS,8,8,0.15,1,12,12,1,5,True,43,246,1.8771999748423696,1,16,1.0
+Charger Availability,charger_count,1,16,Greedy Best-First,8,8,0.15,1,12,12,1,5,True,43,30,0.4113999893888831,1,14,1.0
+Charger Availability,charger_count,1,16,A*,8,8,0.15,1,12,12,1,5,True,43,226,2.218299894593656,1,16,1.0
+Charger Availability,charger_count,1,17,UCS,8,8,0.15,1,12,12,1,5,False,,170,1.1784000089392066,0,0,
+Charger Availability,charger_count,1,17,Greedy Best-First,8,8,0.15,1,12,12,1,5,False,,170,1.445600064471364,0,0,
+Charger Availability,charger_count,1,17,A*,8,8,0.15,1,12,12,1,5,False,,170,1.5360999386757612,0,0,
+Charger Availability,charger_count,1,18,UCS,8,8,0.15,1,12,12,1,5,True,46,191,1.74990005325526,1,14,1.0
+Charger Availability,charger_count,1,18,Greedy Best-First,8,8,0.15,1,12,12,1,5,True,58,42,0.4616000223904848,1,14,1.2608695652173914
+Charger Availability,charger_count,1,18,A*,8,8,0.15,1,12,12,1,5,True,46,173,1.7420999938622117,1,14,1.0
+Charger Availability,charger_count,1,19,UCS,8,8,0.15,1,12,12,1,5,True,38,233,1.7338000470772386,1,14,1.0
+Charger Availability,charger_count,1,19,Greedy Best-First,8,8,0.15,1,12,12,1,5,True,45,70,0.7745999610051513,1,14,1.1842105263157894
+Charger Availability,charger_count,1,19,A*,8,8,0.15,1,12,12,1,5,True,38,201,1.9237000960856676,1,14,1.0
+Charger Availability,charger_count,2,0,UCS,8,8,0.15,2,12,12,1,5,True,47,362,4.196799942292273,1,14,1.0
+Charger Availability,charger_count,2,0,Greedy Best-First,8,8,0.15,2,12,12,1,5,True,54,19,0.2866999711841345,1,14,1.148936170212766
+Charger Availability,charger_count,2,0,A*,8,8,0.15,2,12,12,1,5,True,47,270,3.0115999979898334,1,14,1.0
+Charger Availability,charger_count,2,1,UCS,8,8,0.15,2,12,12,1,5,True,44,264,3.3297999761998653,1,14,1.0
+Charger Availability,charger_count,2,1,Greedy Best-First,8,8,0.15,2,12,12,1,5,True,59,21,0.3160999622195959,1,14,1.3409090909090908
+Charger Availability,charger_count,2,1,A*,8,8,0.15,2,12,12,1,5,True,44,242,2.375899930484593,1,14,1.0
+Charger Availability,charger_count,2,2,UCS,8,8,0.15,2,12,12,1,5,False,,477,3.667699988000095,0,0,
+Charger Availability,charger_count,2,2,Greedy Best-First,8,8,0.15,2,12,12,1,5,False,,477,4.924500011838973,0,0,
+Charger Availability,charger_count,2,2,A*,8,8,0.15,2,12,12,1,5,False,,477,5.17090002540499,0,0,
+Charger Availability,charger_count,2,3,UCS,8,8,0.15,2,12,12,1,5,True,44,349,2.9726000502705574,1,14,1.0
+Charger Availability,charger_count,2,3,Greedy Best-First,8,8,0.15,2,12,12,1,5,True,63,31,0.39930001366883516,1,14,1.4318181818181819
+Charger Availability,charger_count,2,3,A*,8,8,0.15,2,12,12,1,5,True,44,250,2.8841999592259526,1,14,1.0
+Charger Availability,charger_count,2,4,UCS,8,8,0.15,2,12,12,1,5,True,36,243,1.9926000386476517,1,14,1.0
+Charger Availability,charger_count,2,4,Greedy Best-First,8,8,0.15,2,12,12,1,5,True,51,80,0.9231999283656478,1,14,1.4166666666666667
+Charger Availability,charger_count,2,4,A*,8,8,0.15,2,12,12,1,5,True,36,204,2.319999970495701,1,14,1.0
+Charger Availability,charger_count,2,5,UCS,8,8,0.15,2,12,12,1,5,True,31,248,1.982599962502718,1,14,1.0
+Charger Availability,charger_count,2,5,Greedy Best-First,8,8,0.15,2,12,12,1,5,True,43,52,0.5753999575972557,1,14,1.3870967741935485
+Charger Availability,charger_count,2,5,A*,8,8,0.15,2,12,12,1,5,True,31,221,2.363800071179867,1,14,1.0
+Charger Availability,charger_count,2,6,UCS,8,8,0.15,2,12,12,1,5,True,47,280,2.2045999066904187,1,14,1.0
+Charger Availability,charger_count,2,6,Greedy Best-First,8,8,0.15,2,12,12,1,5,True,55,33,0.3917999565601349,1,14,1.1702127659574468
+Charger Availability,charger_count,2,6,A*,8,8,0.15,2,12,12,1,5,True,47,257,2.7172000845894217,1,14,1.0
+Charger Availability,charger_count,2,7,UCS,8,8,0.15,2,12,12,1,5,True,40,272,2.194599946960807,1,14,1.0
+Charger Availability,charger_count,2,7,Greedy Best-First,8,8,0.15,2,12,12,1,5,True,55,93,1.055200002156198,1,14,1.375
+Charger Availability,charger_count,2,7,A*,8,8,0.15,2,12,12,1,5,True,40,255,2.9238000279292464,1,14,1.0
+Charger Availability,charger_count,2,8,UCS,8,8,0.15,2,12,12,1,5,True,44,341,2.7731999289244413,1,14,1.0
+Charger Availability,charger_count,2,8,Greedy Best-First,8,8,0.15,2,12,12,1,5,True,54,17,0.2666000509634614,1,14,1.2272727272727273
+Charger Availability,charger_count,2,8,A*,8,8,0.15,2,12,12,1,5,True,44,226,2.4458999978378415,1,14,1.0
+Charger Availability,charger_count,2,9,UCS,8,8,0.15,2,12,12,1,5,True,37,261,2.1620000479742885,1,14,1.0
+Charger Availability,charger_count,2,9,Greedy Best-First,8,8,0.15,2,12,12,1,5,True,44,56,0.6425000028684735,1,14,1.1891891891891893
+Charger Availability,charger_count,2,9,A*,8,8,0.15,2,12,12,1,5,True,37,215,2.3376999888569117,1,14,1.0
+Charger Availability,charger_count,2,10,UCS,8,8,0.15,2,12,12,1,5,True,62,235,1.8584000645205379,1,20,1.0
+Charger Availability,charger_count,2,10,Greedy Best-First,8,8,0.15,2,12,12,1,5,True,69,43,0.5558000411838293,1,20,1.1129032258064515
+Charger Availability,charger_count,2,10,A*,8,8,0.15,2,12,12,1,5,True,62,230,2.437999937683344,1,20,1.0
+Charger Availability,charger_count,2,11,UCS,8,8,0.15,2,12,12,1,5,False,,479,3.859999938867986,0,0,
+Charger Availability,charger_count,2,11,Greedy Best-First,8,8,0.15,2,12,12,1,5,False,,479,5.252799950540066,0,0,
+Charger Availability,charger_count,2,11,A*,8,8,0.15,2,12,12,1,5,False,,479,4.663600004278123,0,0,
+Charger Availability,charger_count,2,12,UCS,8,8,0.15,2,12,12,1,5,False,,85,0.7224000291898847,0,0,
+Charger Availability,charger_count,2,12,Greedy Best-First,8,8,0.15,2,12,12,1,5,False,,85,0.721000018529594,0,0,
+Charger Availability,charger_count,2,12,A*,8,8,0.15,2,12,12,1,5,False,,85,0.7279999554157257,0,0,
+Charger Availability,charger_count,2,13,UCS,8,8,0.15,2,12,12,1,5,True,48,237,1.7033000476658344,1,14,1.0
+Charger Availability,charger_count,2,13,Greedy Best-First,8,8,0.15,2,12,12,1,5,True,58,79,0.8148999186232686,1,18,1.2083333333333333
+Charger Availability,charger_count,2,13,A*,8,8,0.15,2,12,12,1,5,True,48,237,2.1569000091403723,1,14,1.0
+Charger Availability,charger_count,2,14,UCS,8,8,0.15,2,12,12,1,5,True,41,267,2.127500018104911,1,14,1.0
+Charger Availability,charger_count,2,14,Greedy Best-First,8,8,0.15,2,12,12,1,5,True,58,51,0.6333999335765839,1,18,1.4146341463414633
+Charger Availability,charger_count,2,14,A*,8,8,0.15,2,12,12,1,5,True,41,250,2.4085999466478825,1,14,1.0
+Charger Availability,charger_count,2,15,UCS,8,8,0.15,2,12,12,1,5,True,46,273,2.2233000490814447,1,16,1.0
+Charger Availability,charger_count,2,15,Greedy Best-First,8,8,0.15,2,12,12,1,5,True,57,20,0.29550003819167614,1,16,1.2391304347826086
+Charger Availability,charger_count,2,15,A*,8,8,0.15,2,12,12,1,5,True,46,199,2.292499993927777,1,16,1.0
+Charger Availability,charger_count,2,16,UCS,8,8,0.15,2,12,12,1,5,True,43,248,2.173700020648539,1,16,1.0
+Charger Availability,charger_count,2,16,Greedy Best-First,8,8,0.15,2,12,12,1,5,True,46,20,0.3174999728798866,1,14,1.069767441860465
+Charger Availability,charger_count,2,16,A*,8,8,0.15,2,12,12,1,5,True,43,226,2.226400072686374,1,16,1.0
+Charger Availability,charger_count,2,17,UCS,8,8,0.15,2,12,12,1,5,True,43,234,1.7071999609470367,1,14,1.0
+Charger Availability,charger_count,2,17,Greedy Best-First,8,8,0.15,2,12,12,1,5,True,43,52,0.5759999621659517,1,14,1.0
+Charger Availability,charger_count,2,17,A*,8,8,0.15,2,12,12,1,5,True,43,222,2.076699980534613,1,14,1.0
+Charger Availability,charger_count,2,18,UCS,8,8,0.15,2,12,12,1,5,True,49,232,1.7213999526575208,1,14,1.0
+Charger Availability,charger_count,2,18,Greedy Best-First,8,8,0.15,2,12,12,1,5,True,55,42,0.4518999485298991,1,14,1.1224489795918366
+Charger Availability,charger_count,2,18,A*,8,8,0.15,2,12,12,1,5,True,49,204,1.9236999796703458,1,14,1.0
+Charger Availability,charger_count,2,19,UCS,8,8,0.15,2,12,12,1,5,True,41,285,2.2673000348731875,1,14,1.0
+Charger Availability,charger_count,2,19,Greedy Best-First,8,8,0.15,2,12,12,1,5,True,50,70,0.7871000561863184,1,14,1.2195121951219512
+Charger Availability,charger_count,2,19,A*,8,8,0.15,2,12,12,1,5,True,41,233,2.318499959073961,1,14,1.0
+Charger Availability,charger_count,3,0,UCS,8,8,0.15,3,12,12,1,5,True,40,346,2.9869999270886183,1,14,1.0
+Charger Availability,charger_count,3,0,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,52,19,0.27760001830756664,1,14,1.3
+Charger Availability,charger_count,3,0,A*,8,8,0.15,3,12,12,1,5,True,40,246,2.895900048315525,1,14,1.0
+Charger Availability,charger_count,3,1,UCS,8,8,0.15,3,12,12,1,5,True,42,270,2.1192000713199377,1,14,1.0
+Charger Availability,charger_count,3,1,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,54,21,0.300500076264143,1,14,1.2857142857142858
+Charger Availability,charger_count,3,1,A*,8,8,0.15,3,12,12,1,5,True,42,221,2.5607000570744276,1,14,1.0
+Charger Availability,charger_count,3,2,UCS,8,8,0.15,3,12,12,1,5,False,,494,3.9820000529289246,0,0,
+Charger Availability,charger_count,3,2,Greedy Best-First,8,8,0.15,3,12,12,1,5,False,,494,5.050400039181113,0,0,
+Charger Availability,charger_count,3,2,A*,8,8,0.15,3,12,12,1,5,False,,494,6.249899975955486,0,0,
+Charger Availability,charger_count,3,3,UCS,8,8,0.15,3,12,12,1,5,True,44,400,3.135899896733463,1,14,1.0
+Charger Availability,charger_count,3,3,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,54,31,0.3901999443769455,1,14,1.2272727272727273
+Charger Availability,charger_count,3,3,A*,8,8,0.15,3,12,12,1,5,True,44,392,3.934500040486455,1,14,1.0
+Charger Availability,charger_count,3,4,UCS,8,8,0.15,3,12,12,1,5,True,37,293,2.409899956546724,1,14,1.0
+Charger Availability,charger_count,3,4,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,55,30,0.41749991942197084,1,16,1.4864864864864864
+Charger Availability,charger_count,3,4,A*,8,8,0.15,3,12,12,1,5,True,37,228,2.3825999815016985,1,14,1.0
+Charger Availability,charger_count,3,5,UCS,8,8,0.15,3,12,12,1,5,True,35,282,2.212700084783137,1,14,1.0
+Charger Availability,charger_count,3,5,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,48,52,0.8069000905379653,1,14,1.3714285714285714
+Charger Availability,charger_count,3,5,A*,8,8,0.15,3,12,12,1,5,True,35,270,2.8657999355345964,1,14,1.0
+Charger Availability,charger_count,3,6,UCS,8,8,0.15,3,12,12,1,5,True,44,330,2.7634999714791775,1,14,1.0
+Charger Availability,charger_count,3,6,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,51,31,0.38109999150037766,1,14,1.1590909090909092
+Charger Availability,charger_count,3,6,A*,8,8,0.15,3,12,12,1,5,True,44,256,2.8040000470355153,1,14,1.0
+Charger Availability,charger_count,3,7,UCS,8,8,0.15,3,12,12,1,5,True,40,285,2.2689999314025044,1,14,1.0
+Charger Availability,charger_count,3,7,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,61,32,0.42259995825588703,1,16,1.525
+Charger Availability,charger_count,3,7,A*,8,8,0.15,3,12,12,1,5,True,40,269,2.716599963605404,1,14,1.0
+Charger Availability,charger_count,3,8,UCS,8,8,0.15,3,12,12,1,5,True,43,364,3.1002999749034643,1,14,1.0
+Charger Availability,charger_count,3,8,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,52,17,0.2707999665290117,1,14,1.2093023255813953
+Charger Availability,charger_count,3,8,A*,8,8,0.15,3,12,12,1,5,True,43,245,2.7945999754592776,1,14,1.0
+Charger Availability,charger_count,3,9,UCS,8,8,0.15,3,12,12,1,5,True,36,241,1.9704001024365425,1,14,1.0
+Charger Availability,charger_count,3,9,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,60,44,0.547399977222085,1,18,1.6666666666666667
+Charger Availability,charger_count,3,9,A*,8,8,0.15,3,12,12,1,5,True,36,180,2.0138000836595893,1,14,1.0
+Charger Availability,charger_count,3,10,UCS,8,8,0.15,3,12,12,1,5,True,57,433,3.3967000199481845,1,18,1.0
+Charger Availability,charger_count,3,10,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,69,43,0.5475000943988562,1,20,1.2105263157894737
+Charger Availability,charger_count,3,10,A*,8,8,0.15,3,12,12,1,5,True,57,398,4.225800046697259,1,18,1.0
+Charger Availability,charger_count,3,11,UCS,8,8,0.15,3,12,12,1,5,False,,524,4.141799989156425,0,0,
+Charger Availability,charger_count,3,11,Greedy Best-First,8,8,0.15,3,12,12,1,5,False,,524,5.192799959331751,0,0,
+Charger Availability,charger_count,3,11,A*,8,8,0.15,3,12,12,1,5,False,,524,6.666800007224083,0,0,
+Charger Availability,charger_count,3,12,UCS,8,8,0.15,3,12,12,1,5,False,,85,1.310399966314435,0,0,
+Charger Availability,charger_count,3,12,Greedy Best-First,8,8,0.15,3,12,12,1,5,False,,85,0.775099964812398,0,0,
+Charger Availability,charger_count,3,12,A*,8,8,0.15,3,12,12,1,5,False,,85,0.7307999767363071,0,0,
+Charger Availability,charger_count,3,13,UCS,8,8,0.15,3,12,12,1,5,True,43,460,3.4161999356001616,1,14,1.0
+Charger Availability,charger_count,3,13,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,68,79,0.8311000419780612,1,18,1.5813953488372092
+Charger Availability,charger_count,3,13,A*,8,8,0.15,3,12,12,1,5,True,43,435,4.21390007250011,1,14,1.0
+Charger Availability,charger_count,3,14,UCS,8,8,0.15,3,12,12,1,5,True,41,267,2.585700014606118,1,14,1.0
+Charger Availability,charger_count,3,14,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,58,51,0.5899999523535371,1,18,1.4146341463414633
+Charger Availability,charger_count,3,14,A*,8,8,0.15,3,12,12,1,5,True,41,250,2.418300020508468,1,14,1.0
+Charger Availability,charger_count,3,15,UCS,8,8,0.15,3,12,12,1,5,True,41,273,2.2502999054268003,1,14,1.0
+Charger Availability,charger_count,3,15,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,57,20,0.2967000473290682,1,16,1.3902439024390243
+Charger Availability,charger_count,3,15,A*,8,8,0.15,3,12,12,1,5,True,41,198,2.075500087812543,1,14,1.0
+Charger Availability,charger_count,3,16,UCS,8,8,0.15,3,12,12,1,5,True,35,239,1.9381999736651778,1,14,1.0
+Charger Availability,charger_count,3,16,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,59,20,0.3230998991057277,1,14,1.6857142857142857
+Charger Availability,charger_count,3,16,A*,8,8,0.15,3,12,12,1,5,True,35,182,1.7353000584989786,1,14,1.0
+Charger Availability,charger_count,3,17,UCS,8,8,0.15,3,12,12,1,5,True,43,236,1.820000004954636,1,14,1.0
+Charger Availability,charger_count,3,17,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,54,22,0.2960000419989228,1,16,1.255813953488372
+Charger Availability,charger_count,3,17,A*,8,8,0.15,3,12,12,1,5,True,43,222,2.293700003065169,1,14,1.0
+Charger Availability,charger_count,3,18,UCS,8,8,0.15,3,12,12,1,5,True,51,263,2.0124000729992986,1,14,1.0
+Charger Availability,charger_count,3,18,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,62,40,0.46930008102208376,1,16,1.2156862745098038
+Charger Availability,charger_count,3,18,A*,8,8,0.15,3,12,12,1,5,True,51,235,2.3314000573009253,1,14,1.0
+Charger Availability,charger_count,3,19,UCS,8,8,0.15,3,12,12,1,5,True,40,286,2.1458000410348177,1,14,1.0
+Charger Availability,charger_count,3,19,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,64,38,0.4579999949783087,1,18,1.6
+Charger Availability,charger_count,3,19,A*,8,8,0.15,3,12,12,1,5,True,40,223,2.1589999087154865,1,14,1.0
+Charger Availability,charger_count,5,0,UCS,8,8,0.15,5,12,12,1,5,True,38,432,3.975499887019396,1,16,1.0
+Charger Availability,charger_count,5,0,Greedy Best-First,8,8,0.15,5,12,12,1,5,True,48,19,0.6147000240162015,1,14,1.263157894736842
+Charger Availability,charger_count,5,0,A*,8,8,0.15,5,12,12,1,5,True,38,254,2.926700050011277,1,16,1.0
+Charger Availability,charger_count,5,1,UCS,8,8,0.15,5,12,12,1,5,True,43,305,2.471499959938228,1,14,1.0
+Charger Availability,charger_count,5,1,Greedy Best-First,8,8,0.15,5,12,12,1,5,True,53,21,0.2986999461427331,1,14,1.2325581395348837
+Charger Availability,charger_count,5,1,A*,8,8,0.15,5,12,12,1,5,True,43,284,2.908900030888617,1,14,1.0
+Charger Availability,charger_count,5,2,UCS,8,8,0.15,5,12,12,1,5,False,,560,4.302100045606494,0,0,
+Charger Availability,charger_count,5,2,Greedy Best-First,8,8,0.15,5,12,12,1,5,False,,560,6.907699978910387,0,0,
+Charger Availability,charger_count,5,2,A*,8,8,0.15,5,12,12,1,5,False,,560,5.663000047206879,0,0,
+Charger Availability,charger_count,5,3,UCS,8,8,0.15,5,12,12,1,5,True,37,495,3.7742999847978354,1,14,1.0
+Charger Availability,charger_count,5,3,Greedy Best-First,8,8,0.15,5,12,12,1,5,True,55,31,0.38590002804994583,1,14,1.4864864864864864
+Charger Availability,charger_count,5,3,A*,8,8,0.15,5,12,12,1,5,True,37,440,4.767400096170604,1,14,1.0
+Charger Availability,charger_count,5,4,UCS,8,8,0.15,5,12,12,1,5,True,31,275,2.115400042384863,1,14,1.0
+Charger Availability,charger_count,5,4,Greedy Best-First,8,8,0.15,5,12,12,1,5,True,47,16,0.251700053922832,1,14,1.5161290322580645
+Charger Availability,charger_count,5,4,A*,8,8,0.15,5,12,12,1,5,True,31,238,2.8261999832466245,1,14,1.0
+Charger Availability,charger_count,5,5,UCS,8,8,0.15,5,12,12,1,5,True,30,273,2.107399981468916,1,14,1.0
+Charger Availability,charger_count,5,5,Greedy Best-First,8,8,0.15,5,12,12,1,5,True,52,89,0.9032998932525516,1,14,1.7333333333333334
+Charger Availability,charger_count,5,5,A*,8,8,0.15,5,12,12,1,5,True,30,239,2.757800044491887,1,14,1.0
+Charger Availability,charger_count,5,6,UCS,8,8,0.15,5,12,12,1,5,True,47,359,3.0179000459611416,1,14,1.0
+Charger Availability,charger_count,5,6,Greedy Best-First,8,8,0.15,5,12,12,1,5,True,53,21,0.2788000274449587,1,14,1.127659574468085
+Charger Availability,charger_count,5,6,A*,8,8,0.15,5,12,12,1,5,True,47,293,3.0746000120416284,1,14,1.0
+Charger Availability,charger_count,5,7,UCS,8,8,0.15,5,12,12,1,5,True,38,263,2.4138999870046973,1,14,1.0
+Charger Availability,charger_count,5,7,Greedy Best-First,8,8,0.15,5,12,12,1,5,True,66,32,0.36099995486438274,1,16,1.736842105263158
+Charger Availability,charger_count,5,7,A*,8,8,0.15,5,12,12,1,5,True,38,232,2.204500022344291,1,14,1.0
+Charger Availability,charger_count,5,8,UCS,8,8,0.15,5,12,12,1,5,True,40,407,3.5782000049948692,1,14,1.0
+Charger Availability,charger_count,5,8,Greedy Best-First,8,8,0.15,5,12,12,1,5,True,59,17,0.24880003184080124,1,14,1.475
+Charger Availability,charger_count,5,8,A*,8,8,0.15,5,12,12,1,5,True,40,274,3.0002999119460583,1,14,1.0
+Charger Availability,charger_count,5,9,UCS,8,8,0.15,5,12,12,1,5,True,37,292,2.4329000152647495,1,14,1.0
+Charger Availability,charger_count,5,9,Greedy Best-First,8,8,0.15,5,12,12,1,5,True,64,44,0.8728000102564692,1,18,1.7297297297297298
+Charger Availability,charger_count,5,9,A*,8,8,0.15,5,12,12,1,5,True,37,243,2.663100021891296,1,14,1.0
+Charger Availability,charger_count,5,10,UCS,8,8,0.15,5,12,12,1,5,True,46,455,3.664799965918064,1,16,1.0
+Charger Availability,charger_count,5,10,Greedy Best-First,8,8,0.15,5,12,12,1,5,True,62,68,1.319900038652122,1,18,1.3478260869565217
+Charger Availability,charger_count,5,10,A*,8,8,0.15,5,12,12,1,5,True,46,368,4.411800066009164,1,16,1.0
+Charger Availability,charger_count,5,11,UCS,8,8,0.15,5,12,12,1,5,False,,575,4.933099960908294,0,0,
+Charger Availability,charger_count,5,11,Greedy Best-First,8,8,0.15,5,12,12,1,5,False,,575,6.19009998627007,0,0,
+Charger Availability,charger_count,5,11,A*,8,8,0.15,5,12,12,1,5,False,,575,6.082399981096387,0,0,
+Charger Availability,charger_count,5,12,UCS,8,8,0.15,5,12,12,1,5,True,51,166,1.3142999960109591,1,14,1.0
+Charger Availability,charger_count,5,12,Greedy Best-First,8,8,0.15,5,12,12,1,5,True,61,28,0.3659999929368496,1,16,1.196078431372549
+Charger Availability,charger_count,5,12,A*,8,8,0.15,5,12,12,1,5,True,51,143,1.3783000176772475,1,14,1.0
+Charger Availability,charger_count,5,13,UCS,8,8,0.15,5,12,12,1,5,True,42,459,3.454799996688962,1,14,1.0
+Charger Availability,charger_count,5,13,Greedy Best-First,8,8,0.15,5,12,12,1,5,True,83,64,0.7146000862121582,2,20,1.9761904761904763
+Charger Availability,charger_count,5,13,A*,8,8,0.15,5,12,12,1,5,True,42,454,4.3379999697208405,1,14,1.0
+Charger Availability,charger_count,5,14,UCS,8,8,0.15,5,12,12,1,5,True,38,442,3.542400081641972,1,14,1.0
+Charger Availability,charger_count,5,14,Greedy Best-First,8,8,0.15,5,12,12,1,5,True,54,25,0.32870005816221237,1,14,1.4210526315789473
+Charger Availability,charger_count,5,14,A*,8,8,0.15,5,12,12,1,5,True,38,334,3.6144000478088856,1,14,1.0
+Charger Availability,charger_count,5,15,UCS,8,8,0.15,5,12,12,1,5,True,44,265,2.2523999214172363,1,14,1.0
+Charger Availability,charger_count,5,15,Greedy Best-First,8,8,0.15,5,12,12,1,5,True,56,20,0.3109000390395522,1,16,1.2727272727272727
+Charger Availability,charger_count,5,15,A*,8,8,0.15,5,12,12,1,5,True,44,189,2.0260000601410866,1,14,1.0
+Charger Availability,charger_count,5,16,UCS,8,8,0.15,5,12,12,1,5,True,28,247,2.029299968853593,1,14,1.0
+Charger Availability,charger_count,5,16,Greedy Best-First,8,8,0.15,5,12,12,1,5,True,50,20,0.3165999660268426,1,14,1.7857142857142858
+Charger Availability,charger_count,5,16,A*,8,8,0.15,5,12,12,1,5,True,28,191,2.3108000168576837,1,14,1.0
+Charger Availability,charger_count,5,17,UCS,8,8,0.15,5,12,12,1,5,True,46,470,3.5294999834150076,1,14,1.0
+Charger Availability,charger_count,5,17,Greedy Best-First,8,8,0.15,5,12,12,1,5,True,67,22,0.29909994918853045,1,16,1.4565217391304348
+Charger Availability,charger_count,5,17,A*,8,8,0.15,5,12,12,1,5,True,46,422,4.471499938517809,1,14,1.0
+Charger Availability,charger_count,5,18,UCS,8,8,0.15,5,12,12,1,5,True,47,424,3.5177000099793077,1,14,1.0
+Charger Availability,charger_count,5,18,Greedy Best-First,8,8,0.15,5,12,12,1,5,True,62,40,0.47420000191777945,1,16,1.3191489361702127
+Charger Availability,charger_count,5,18,A*,8,8,0.15,5,12,12,1,5,True,47,315,3.7110999692231417,1,14,1.0
+Charger Availability,charger_count,5,19,UCS,8,8,0.15,5,12,12,1,5,True,37,454,4.278299980796874,1,14,1.0
+Charger Availability,charger_count,5,19,Greedy Best-First,8,8,0.15,5,12,12,1,5,True,48,25,0.36289996933192015,1,14,1.2972972972972974
+Charger Availability,charger_count,5,19,A*,8,8,0.15,5,12,12,1,5,True,37,286,3.5694000544026494,1,14,1.0

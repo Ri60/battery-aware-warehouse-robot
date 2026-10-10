@@ -12,24 +12,31 @@ def minimum_movement_time(warehouse):
     return min(warehouse.edge_costs.values())
 
 
-def primary_heuristic(state, warehouse):
-    """
-    h(n) = Manhattan distance to goal
-           x minimum movement-time cost.
+def zero_heuristic(state, warehouse):
+    return 0
 
-    This ignores:
-    - walls
-    - battery limits
-    - charging delays
 
-    So it estimates a lower bound on remaining travel time.
-    """
-
+def half_manhattan_heuristic(state, warehouse):
     distance = manhattan_distance(
         state.position,
         warehouse.goal,
     )
 
-    min_cost = minimum_movement_time(warehouse)
+    min_cost = minimum_movement_time(
+        warehouse
+    )
+
+    return 0.5 * distance * min_cost
+
+
+def primary_heuristic(state, warehouse):
+    distance = manhattan_distance(
+        state.position,
+        warehouse.goal,
+    )
+
+    min_cost = minimum_movement_time(
+        warehouse
+    )
 
     return distance * min_cost

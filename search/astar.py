@@ -25,17 +25,16 @@ def reconstruct_path(parent, action_taken, goal_state):
     return path, actions
 
 
-def a_star_search(warehouse):
+def a_star_search(
+    warehouse,
+    heuristic_function=primary_heuristic,
+):
     """
     Battery-aware A* Search.
 
     f(n) = g(n) + h(n)
 
-    g(n):
-        accumulated movement + charging time
-
-    h(n):
-        estimated remaining movement time
+    The heuristic can be changed for experiments.
     """
 
     start_state = State(
@@ -49,19 +48,15 @@ def a_star_search(warehouse):
 
     start_cost = 0
 
-    start_h = primary_heuristic(
+    start_h = heuristic_function(
         start_state,
         warehouse,
     )
 
-    start_f = start_cost + start_h
-
-    # Entries:
-    # (f_cost, g_cost, tie_breaker, state)
     heapq.heappush(
         frontier,
         (
-            start_f,
+            start_cost + start_h,
             start_cost,
             next(tie_breaker),
             start_state,
@@ -85,7 +80,7 @@ def a_star_search(warehouse):
             frontier
         )
 
-        # Ignore stale heap entries.
+        # Ignore old/stale queue entries.
         if queued_g != best_cost.get(current_state):
             continue
 
@@ -109,9 +104,9 @@ def a_star_search(warehouse):
                 "nodes_expanded": nodes_expanded,
             }
 
-        # ---------------------------------------
+        # --------------------------------
         # MOVE ACTIONS
-        # ---------------------------------------
+        # --------------------------------
         if current_state.battery > 0:
             neighbors = warehouse.get_neighbors(
                 current_state.row,
@@ -155,7 +150,7 @@ def a_star_search(warehouse):
                         f"(time={movement_time}, battery={new_battery})"
                     )
 
-                    h_value = primary_heuristic(
+                    h_value = heuristic_function(
                         next_state,
                         warehouse,
                     )
@@ -175,9 +170,9 @@ def a_star_search(warehouse):
                         ),
                     )
 
-        # ---------------------------------------
+        # --------------------------------
         # RECHARGE ACTION
-        # ---------------------------------------
+        # --------------------------------
         if (
             warehouse.is_charger(
                 current_state.row,
@@ -215,7 +210,7 @@ def a_star_search(warehouse):
                     f"battery={warehouse.battery_capacity})"
                 )
 
-                h_value = primary_heuristic(
+                h_value = heuristic_function(
                     recharged_state,
                     warehouse,
                 )

@@ -1,0 +1,241 @@
+experiment,factor,factor_value,seed,algorithm,rows,cols,obstacle_density,charger_count,battery_capacity,initial_battery,min_movement_time,max_movement_time,success,total_cost,nodes_expanded,execution_time_ms,charging_stops,moves,suboptimality_ratio
+Obstacle Density,obstacle_density,0.05,0,UCS,8,8,0.05,3,12,12,1,5,True,35,461,3.7831999361515045,1,14,1.0
+Obstacle Density,obstacle_density,0.05,0,Greedy Best-First,8,8,0.05,3,12,12,1,5,True,55,17,0.2578999847173691,1,14,1.5714285714285714
+Obstacle Density,obstacle_density,0.05,0,A*,8,8,0.05,3,12,12,1,5,True,35,299,3.592599998228252,1,14,1.0
+Obstacle Density,obstacle_density,0.05,1,UCS,8,8,0.05,3,12,12,1,5,True,37,410,3.4470000537112355,1,14,1.0
+Obstacle Density,obstacle_density,0.05,1,Greedy Best-First,8,8,0.05,3,12,12,1,5,True,73,23,0.3244000254198909,1,16,1.972972972972973
+Obstacle Density,obstacle_density,0.05,1,A*,8,8,0.05,3,12,12,1,5,True,37,289,4.417599993757904,1,14,1.0
+Obstacle Density,obstacle_density,0.05,2,UCS,8,8,0.05,3,12,12,1,5,True,47,281,2.263000002130866,1,16,1.0
+Obstacle Density,obstacle_density,0.05,2,Greedy Best-First,8,8,0.05,3,12,12,1,5,True,75,112,1.3732999796047807,1,20,1.5957446808510638
+Obstacle Density,obstacle_density,0.05,2,A*,8,8,0.05,3,12,12,1,5,True,47,278,3.423399990424514,1,16,1.0
+Obstacle Density,obstacle_density,0.05,3,UCS,8,8,0.05,3,12,12,1,5,True,40,274,2.2083999356254935,1,14,1.0
+Obstacle Density,obstacle_density,0.05,3,Greedy Best-First,8,8,0.05,3,12,12,1,5,True,42,125,1.6670000040903687,1,14,1.05
+Obstacle Density,obstacle_density,0.05,3,A*,8,8,0.05,3,12,12,1,5,True,40,267,3.7039000308141112,1,14,1.0
+Obstacle Density,obstacle_density,0.05,4,UCS,8,8,0.05,3,12,12,1,5,True,35,337,3.3488000044599175,1,14,1.0
+Obstacle Density,obstacle_density,0.05,4,Greedy Best-First,8,8,0.05,3,12,12,1,5,True,46,36,1.2731999158859253,1,14,1.3142857142857143
+Obstacle Density,obstacle_density,0.05,4,A*,8,8,0.05,3,12,12,1,5,True,35,315,6.303200032562017,1,14,1.0
+Obstacle Density,obstacle_density,0.05,5,UCS,8,8,0.05,3,12,12,1,5,True,35,434,4.122799960896373,1,14,1.0
+Obstacle Density,obstacle_density,0.05,5,Greedy Best-First,8,8,0.05,3,12,12,1,5,True,50,25,0.38510002195835114,1,14,1.4285714285714286
+Obstacle Density,obstacle_density,0.05,5,A*,8,8,0.05,3,12,12,1,5,True,35,391,5.624699988402426,1,14,1.0
+Obstacle Density,obstacle_density,0.05,6,UCS,8,8,0.05,3,12,12,1,5,True,42,324,3.8573999190703034,1,14,1.0
+Obstacle Density,obstacle_density,0.05,6,Greedy Best-First,8,8,0.05,3,12,12,1,5,True,56,27,0.38569991011172533,1,16,1.3333333333333333
+Obstacle Density,obstacle_density,0.05,6,A*,8,8,0.05,3,12,12,1,5,True,42,323,3.700900007970631,1,14,1.0
+Obstacle Density,obstacle_density,0.05,7,UCS,8,8,0.05,3,12,12,1,5,True,31,372,4.222199902869761,1,14,1.0
+Obstacle Density,obstacle_density,0.05,7,Greedy Best-First,8,8,0.05,3,12,12,1,5,True,68,36,1.0110000148415565,1,16,2.193548387096774
+Obstacle Density,obstacle_density,0.05,7,A*,8,8,0.05,3,12,12,1,5,True,31,235,3.082200069911778,1,14,1.0
+Obstacle Density,obstacle_density,0.05,8,UCS,8,8,0.05,3,12,12,1,5,True,27,285,2.3689999943599105,1,14,1.0
+Obstacle Density,obstacle_density,0.05,8,Greedy Best-First,8,8,0.05,3,12,12,1,5,True,48,89,1.0586000280454755,1,18,1.7777777777777777
+Obstacle Density,obstacle_density,0.05,8,A*,8,8,0.05,3,12,12,1,5,True,27,231,2.5933999568223953,1,14,1.0
+Obstacle Density,obstacle_density,0.05,9,UCS,8,8,0.05,3,12,12,1,5,True,25,349,3.1629999866709113,1,14,1.0
+Obstacle Density,obstacle_density,0.05,9,Greedy Best-First,8,8,0.05,3,12,12,1,5,True,53,110,1.8896999536082149,1,18,2.12
+Obstacle Density,obstacle_density,0.05,9,A*,8,8,0.05,3,12,12,1,5,True,25,237,3.306600032374263,1,14,1.0
+Obstacle Density,obstacle_density,0.05,10,UCS,8,8,0.05,3,12,12,1,5,True,32,470,4.275300074368715,1,14,1.0
+Obstacle Density,obstacle_density,0.05,10,Greedy Best-First,8,8,0.05,3,12,12,1,5,True,41,75,0.8910000324249268,1,14,1.28125
+Obstacle Density,obstacle_density,0.05,10,A*,8,8,0.05,3,12,12,1,5,True,32,399,4.525900003500283,1,14,1.0
+Obstacle Density,obstacle_density,0.05,11,UCS,8,8,0.05,3,12,12,1,5,True,38,339,4.121300065889955,1,16,1.0
+Obstacle Density,obstacle_density,0.05,11,Greedy Best-First,8,8,0.05,3,12,12,1,5,True,56,20,0.30149996746331453,1,16,1.4736842105263157
+Obstacle Density,obstacle_density,0.05,11,A*,8,8,0.05,3,12,12,1,5,True,38,261,3.442100016400218,1,16,1.0
+Obstacle Density,obstacle_density,0.05,12,UCS,8,8,0.05,3,12,12,1,5,True,33,465,3.8617000682279468,1,14,1.0
+Obstacle Density,obstacle_density,0.05,12,Greedy Best-First,8,8,0.05,3,12,12,1,5,True,69,37,0.46929996460676193,1,18,2.090909090909091
+Obstacle Density,obstacle_density,0.05,12,A*,8,8,0.05,3,12,12,1,5,True,33,391,5.119299981743097,1,14,1.0
+Obstacle Density,obstacle_density,0.05,13,UCS,8,8,0.05,3,12,12,1,5,True,48,220,2.242899965494871,1,14,1.0
+Obstacle Density,obstacle_density,0.05,13,Greedy Best-First,8,8,0.05,3,12,12,1,5,True,66,70,0.7575999479740858,1,14,1.375
+Obstacle Density,obstacle_density,0.05,13,A*,8,8,0.05,3,12,12,1,5,True,48,210,2.153299981728196,1,14,1.0
+Obstacle Density,obstacle_density,0.05,14,UCS,8,8,0.05,3,12,12,1,5,True,34,385,3.826800035312772,1,16,1.0
+Obstacle Density,obstacle_density,0.05,14,Greedy Best-First,8,8,0.05,3,12,12,1,5,True,64,20,0.29639992862939835,1,16,1.8823529411764706
+Obstacle Density,obstacle_density,0.05,14,A*,8,8,0.05,3,12,12,1,5,True,34,242,2.823999966494739,1,16,1.0
+Obstacle Density,obstacle_density,0.05,15,UCS,8,8,0.05,3,12,12,1,5,True,43,335,3.643800038844347,1,14,1.0
+Obstacle Density,obstacle_density,0.05,15,Greedy Best-First,8,8,0.05,3,12,12,1,5,True,57,32,0.5886000581085682,1,18,1.3255813953488371
+Obstacle Density,obstacle_density,0.05,15,A*,8,8,0.05,3,12,12,1,5,True,43,333,3.6484000738710165,1,14,1.0
+Obstacle Density,obstacle_density,0.05,16,UCS,8,8,0.05,3,12,12,1,5,True,36,304,2.5849000085145235,1,14,1.0
+Obstacle Density,obstacle_density,0.05,16,Greedy Best-First,8,8,0.05,3,12,12,1,5,True,50,48,0.6391999777406454,1,18,1.3888888888888888
+Obstacle Density,obstacle_density,0.05,16,A*,8,8,0.05,3,12,12,1,5,True,36,234,2.567899995483458,1,14,1.0
+Obstacle Density,obstacle_density,0.05,17,UCS,8,8,0.05,3,12,12,1,5,True,37,567,6.399600068107247,1,14,1.0
+Obstacle Density,obstacle_density,0.05,17,Greedy Best-First,8,8,0.05,3,12,12,1,5,True,66,66,0.7637999951839447,1,20,1.7837837837837838
+Obstacle Density,obstacle_density,0.05,17,A*,8,8,0.05,3,12,12,1,5,True,37,470,5.867399973794818,1,14,1.0
+Obstacle Density,obstacle_density,0.05,18,UCS,8,8,0.05,3,12,12,1,5,True,39,459,3.786400076933205,1,14,1.0
+Obstacle Density,obstacle_density,0.05,18,Greedy Best-First,8,8,0.05,3,12,12,1,5,True,67,53,0.623099971562624,1,16,1.7179487179487178
+Obstacle Density,obstacle_density,0.05,18,A*,8,8,0.05,3,12,12,1,5,True,39,348,4.772900021634996,1,14,1.0
+Obstacle Density,obstacle_density,0.05,19,UCS,8,8,0.05,3,12,12,1,5,True,34,283,2.374699921347201,1,14,1.0
+Obstacle Density,obstacle_density,0.05,19,Greedy Best-First,8,8,0.05,3,12,12,1,5,True,56,16,0.2410999732092023,1,14,1.6470588235294117
+Obstacle Density,obstacle_density,0.05,19,A*,8,8,0.05,3,12,12,1,5,True,34,247,2.6150000048801303,1,14,1.0
+Obstacle Density,obstacle_density,0.15,0,UCS,8,8,0.15,3,12,12,1,5,True,40,346,3.0549000948667526,1,14,1.0
+Obstacle Density,obstacle_density,0.15,0,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,52,19,0.2864999696612358,1,14,1.3
+Obstacle Density,obstacle_density,0.15,0,A*,8,8,0.15,3,12,12,1,5,True,40,246,3.4181999508291483,1,14,1.0
+Obstacle Density,obstacle_density,0.15,1,UCS,8,8,0.15,3,12,12,1,5,True,42,270,2.123800106346607,1,14,1.0
+Obstacle Density,obstacle_density,0.15,1,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,54,21,0.29889994766563177,1,14,1.2857142857142858
+Obstacle Density,obstacle_density,0.15,1,A*,8,8,0.15,3,12,12,1,5,True,42,221,2.2688000462949276,1,14,1.0
+Obstacle Density,obstacle_density,0.15,2,UCS,8,8,0.15,3,12,12,1,5,True,37,429,3.5125999711453915,1,16,1.0
+Obstacle Density,obstacle_density,0.15,2,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,60,97,1.1588000925257802,1,20,1.6216216216216217
+Obstacle Density,obstacle_density,0.15,2,A*,8,8,0.15,3,12,12,1,5,True,37,427,5.453200079500675,1,16,1.0
+Obstacle Density,obstacle_density,0.15,3,UCS,8,8,0.15,3,12,12,1,5,True,44,400,3.275000024586916,1,14,1.0
+Obstacle Density,obstacle_density,0.15,3,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,54,31,0.40900008752942085,1,14,1.2272727272727273
+Obstacle Density,obstacle_density,0.15,3,A*,8,8,0.15,3,12,12,1,5,True,44,392,4.0825000032782555,1,14,1.0
+Obstacle Density,obstacle_density,0.15,4,UCS,8,8,0.15,3,12,12,1,5,True,37,293,2.7951999800279737,1,14,1.0
+Obstacle Density,obstacle_density,0.15,4,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,55,30,0.453100074082613,1,16,1.4864864864864864
+Obstacle Density,obstacle_density,0.15,4,A*,8,8,0.15,3,12,12,1,5,True,37,228,2.4590000975877047,1,14,1.0
+Obstacle Density,obstacle_density,0.15,5,UCS,8,8,0.15,3,12,12,1,5,True,35,282,2.511899918317795,1,14,1.0
+Obstacle Density,obstacle_density,0.15,5,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,48,52,0.5592999514192343,1,14,1.3714285714285714
+Obstacle Density,obstacle_density,0.15,5,A*,8,8,0.15,3,12,12,1,5,True,35,270,2.6492999168112874,1,14,1.0
+Obstacle Density,obstacle_density,0.15,6,UCS,8,8,0.15,3,12,12,1,5,True,44,330,2.751899999566376,1,14,1.0
+Obstacle Density,obstacle_density,0.15,6,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,51,31,0.4143998958170414,1,14,1.1590909090909092
+Obstacle Density,obstacle_density,0.15,6,A*,8,8,0.15,3,12,12,1,5,True,44,256,2.665200037881732,1,14,1.0
+Obstacle Density,obstacle_density,0.15,7,UCS,8,8,0.15,3,12,12,1,5,True,40,285,2.9569000471383333,1,14,1.0
+Obstacle Density,obstacle_density,0.15,7,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,61,32,0.44159998651593924,1,16,1.525
+Obstacle Density,obstacle_density,0.15,7,A*,8,8,0.15,3,12,12,1,5,True,40,269,2.6415000902488828,1,14,1.0
+Obstacle Density,obstacle_density,0.15,8,UCS,8,8,0.15,3,12,12,1,5,True,43,364,2.931399969384074,1,14,1.0
+Obstacle Density,obstacle_density,0.15,8,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,52,17,0.25399995502084494,1,14,1.2093023255813953
+Obstacle Density,obstacle_density,0.15,8,A*,8,8,0.15,3,12,12,1,5,True,43,245,2.915999968536198,1,14,1.0
+Obstacle Density,obstacle_density,0.15,9,UCS,8,8,0.15,3,12,12,1,5,True,36,241,2.3363999789580703,1,14,1.0
+Obstacle Density,obstacle_density,0.15,9,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,60,44,0.526099931448698,1,18,1.6666666666666667
+Obstacle Density,obstacle_density,0.15,9,A*,8,8,0.15,3,12,12,1,5,True,36,180,2.0432999590411782,1,14,1.0
+Obstacle Density,obstacle_density,0.15,10,UCS,8,8,0.15,3,12,12,1,5,True,57,433,3.479599952697754,1,18,1.0
+Obstacle Density,obstacle_density,0.15,10,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,69,43,0.5454999627545476,1,20,1.2105263157894737
+Obstacle Density,obstacle_density,0.15,10,A*,8,8,0.15,3,12,12,1,5,True,57,398,3.8376000011339784,1,18,1.0
+Obstacle Density,obstacle_density,0.15,11,UCS,8,8,0.15,3,12,12,1,5,True,28,208,1.7714999848976731,1,14,1.0
+Obstacle Density,obstacle_density,0.15,11,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,62,18,0.40119991172105074,1,14,2.2142857142857144
+Obstacle Density,obstacle_density,0.15,11,A*,8,8,0.15,3,12,12,1,5,True,28,182,2.5306999450549483,1,14,1.0
+Obstacle Density,obstacle_density,0.15,12,UCS,8,8,0.15,3,12,12,1,5,True,45,300,3.7595999892801046,1,14,1.0
+Obstacle Density,obstacle_density,0.15,12,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,51,45,0.601799925789237,1,14,1.1333333333333333
+Obstacle Density,obstacle_density,0.15,12,A*,8,8,0.15,3,12,12,1,5,True,45,223,2.2239000536501408,1,14,1.0
+Obstacle Density,obstacle_density,0.15,13,UCS,8,8,0.15,3,12,12,1,5,True,43,460,3.425800008699298,1,14,1.0
+Obstacle Density,obstacle_density,0.15,13,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,68,79,0.8309000404551625,1,18,1.5813953488372092
+Obstacle Density,obstacle_density,0.15,13,A*,8,8,0.15,3,12,12,1,5,True,43,435,4.134399932809174,1,14,1.0
+Obstacle Density,obstacle_density,0.15,14,UCS,8,8,0.15,3,12,12,1,5,True,41,267,2.303000073879957,1,14,1.0
+Obstacle Density,obstacle_density,0.15,14,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,58,51,0.5782999796792865,1,18,1.4146341463414633
+Obstacle Density,obstacle_density,0.15,14,A*,8,8,0.15,3,12,12,1,5,True,41,250,2.410799963399768,1,14,1.0
+Obstacle Density,obstacle_density,0.15,15,UCS,8,8,0.15,3,12,12,1,5,True,41,273,2.2329000057652593,1,14,1.0
+Obstacle Density,obstacle_density,0.15,15,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,57,20,0.295699923299253,1,16,1.3902439024390243
+Obstacle Density,obstacle_density,0.15,15,A*,8,8,0.15,3,12,12,1,5,True,41,198,2.0669000223279,1,14,1.0
+Obstacle Density,obstacle_density,0.15,16,UCS,8,8,0.15,3,12,12,1,5,True,35,239,1.8746000714600086,1,14,1.0
+Obstacle Density,obstacle_density,0.15,16,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,59,20,0.3024999750778079,1,14,1.6857142857142857
+Obstacle Density,obstacle_density,0.15,16,A*,8,8,0.15,3,12,12,1,5,True,35,182,1.7704999772831798,1,14,1.0
+Obstacle Density,obstacle_density,0.15,17,UCS,8,8,0.15,3,12,12,1,5,True,43,236,1.7423999961465597,1,14,1.0
+Obstacle Density,obstacle_density,0.15,17,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,54,22,0.38350000977516174,1,16,1.255813953488372
+Obstacle Density,obstacle_density,0.15,17,A*,8,8,0.15,3,12,12,1,5,True,43,222,2.075199969112873,1,14,1.0
+Obstacle Density,obstacle_density,0.15,18,UCS,8,8,0.15,3,12,12,1,5,True,51,263,2.0108999451622367,1,14,1.0
+Obstacle Density,obstacle_density,0.15,18,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,62,40,0.45769999269396067,1,16,1.2156862745098038
+Obstacle Density,obstacle_density,0.15,18,A*,8,8,0.15,3,12,12,1,5,True,51,235,2.3234999971464276,1,14,1.0
+Obstacle Density,obstacle_density,0.15,19,UCS,8,8,0.15,3,12,12,1,5,True,40,286,2.2166999988257885,1,14,1.0
+Obstacle Density,obstacle_density,0.15,19,Greedy Best-First,8,8,0.15,3,12,12,1,5,True,64,38,0.4669999470934272,1,18,1.6
+Obstacle Density,obstacle_density,0.15,19,A*,8,8,0.15,3,12,12,1,5,True,40,223,2.2438999731093645,1,14,1.0
+Obstacle Density,obstacle_density,0.25,0,UCS,8,8,0.25,3,12,12,1,5,True,47,313,2.873099991120398,1,14,1.0
+Obstacle Density,obstacle_density,0.25,0,Greedy Best-First,8,8,0.25,3,12,12,1,5,True,57,26,0.38810004480183125,1,14,1.2127659574468086
+Obstacle Density,obstacle_density,0.25,0,A*,8,8,0.25,3,12,12,1,5,True,47,277,2.342000021599233,1,14,1.0
+Obstacle Density,obstacle_density,0.25,1,UCS,8,8,0.25,3,12,12,1,5,True,43,328,2.4707000702619553,1,14,1.0
+Obstacle Density,obstacle_density,0.25,1,Greedy Best-First,8,8,0.25,3,12,12,1,5,True,58,29,0.33300009090453386,1,14,1.3488372093023255
+Obstacle Density,obstacle_density,0.25,1,A*,8,8,0.25,3,12,12,1,5,True,43,240,2.2635000059381127,1,14,1.0
+Obstacle Density,obstacle_density,0.25,2,UCS,8,8,0.25,3,12,12,1,5,True,36,233,1.8722000531852245,1,16,1.0
+Obstacle Density,obstacle_density,0.25,2,Greedy Best-First,8,8,0.25,3,12,12,1,5,True,55,30,0.33829989843070507,1,18,1.5277777777777777
+Obstacle Density,obstacle_density,0.25,2,A*,8,8,0.25,3,12,12,1,5,True,36,221,2.2182000102475286,1,16,1.0
+Obstacle Density,obstacle_density,0.25,3,UCS,8,8,0.25,3,12,12,1,5,True,52,288,2.3934999480843544,1,14,1.0
+Obstacle Density,obstacle_density,0.25,3,Greedy Best-First,8,8,0.25,3,12,12,1,5,True,52,30,0.38270000368356705,1,14,1.0
+Obstacle Density,obstacle_density,0.25,3,A*,8,8,0.25,3,12,12,1,5,True,52,214,2.031399984844029,1,14,1.0
+Obstacle Density,obstacle_density,0.25,4,UCS,8,8,0.25,3,12,12,1,5,True,43,221,1.6630999743938446,1,14,1.0
+Obstacle Density,obstacle_density,0.25,4,Greedy Best-First,8,8,0.25,3,12,12,1,5,True,57,33,0.39359997026622295,1,16,1.3255813953488371
+Obstacle Density,obstacle_density,0.25,4,A*,8,8,0.25,3,12,12,1,5,True,43,173,1.6177999787032604,1,14,1.0
+Obstacle Density,obstacle_density,0.25,5,UCS,8,8,0.25,3,12,12,1,5,True,36,386,2.7134999400004745,1,14,1.0
+Obstacle Density,obstacle_density,0.25,5,Greedy Best-First,8,8,0.25,3,12,12,1,5,True,63,37,0.38680003490298986,1,16,1.75
+Obstacle Density,obstacle_density,0.25,5,A*,8,8,0.25,3,12,12,1,5,True,36,306,2.9770000837743282,1,14,1.0
+Obstacle Density,obstacle_density,0.25,6,UCS,8,8,0.25,3,12,12,1,5,True,45,205,1.5654999297112226,1,14,1.0
+Obstacle Density,obstacle_density,0.25,6,Greedy Best-First,8,8,0.25,3,12,12,1,5,True,58,28,0.323499902151525,1,14,1.288888888888889
+Obstacle Density,obstacle_density,0.25,6,A*,8,8,0.25,3,12,12,1,5,True,45,191,1.7813000595197082,1,14,1.0
+Obstacle Density,obstacle_density,0.25,7,UCS,8,8,0.25,3,12,12,1,5,True,47,199,1.3915000017732382,1,16,1.0
+Obstacle Density,obstacle_density,0.25,7,Greedy Best-First,8,8,0.25,3,12,12,1,5,True,53,32,0.36010006442666054,1,14,1.127659574468085
+Obstacle Density,obstacle_density,0.25,7,A*,8,8,0.25,3,12,12,1,5,True,47,183,1.574499998241663,1,16,1.0
+Obstacle Density,obstacle_density,0.25,8,UCS,8,8,0.25,3,12,12,1,5,True,41,210,1.411000033840537,1,14,1.0
+Obstacle Density,obstacle_density,0.25,8,Greedy Best-First,8,8,0.25,3,12,12,1,5,True,61,34,0.3700000233948231,1,16,1.4878048780487805
+Obstacle Density,obstacle_density,0.25,8,A*,8,8,0.25,3,12,12,1,5,True,41,186,1.545800012536347,1,14,1.0
+Obstacle Density,obstacle_density,0.25,9,UCS,8,8,0.25,3,12,12,1,5,True,44,142,0.9418000699952245,1,14,1.0
+Obstacle Density,obstacle_density,0.25,9,Greedy Best-First,8,8,0.25,3,12,12,1,5,True,44,111,1.155999954789877,1,14,1.0
+Obstacle Density,obstacle_density,0.25,9,A*,8,8,0.25,3,12,12,1,5,True,44,120,0.9494000114500523,1,14,1.0
+Obstacle Density,obstacle_density,0.25,10,UCS,8,8,0.25,3,12,12,1,5,True,44,343,2.4382000556215644,1,14,1.0
+Obstacle Density,obstacle_density,0.25,10,Greedy Best-First,8,8,0.25,3,12,12,1,5,True,45,83,0.8799000643193722,1,14,1.0227272727272727
+Obstacle Density,obstacle_density,0.25,10,A*,8,8,0.25,3,12,12,1,5,True,44,225,2.178399940021336,1,14,1.0
+Obstacle Density,obstacle_density,0.25,11,UCS,8,8,0.25,3,12,12,1,5,True,55,391,2.944400068372488,1,18,1.0
+Obstacle Density,obstacle_density,0.25,11,Greedy Best-First,8,8,0.25,3,12,12,1,5,True,63,148,1.6836000140756369,1,18,1.1454545454545455
+Obstacle Density,obstacle_density,0.25,11,A*,8,8,0.25,3,12,12,1,5,True,55,289,2.8994999593123794,1,18,1.0
+Obstacle Density,obstacle_density,0.25,12,UCS,8,8,0.25,3,12,12,1,5,True,36,340,2.46850005351007,1,14,1.0
+Obstacle Density,obstacle_density,0.25,12,Greedy Best-First,8,8,0.25,3,12,12,1,5,True,56,31,0.3584000514820218,1,16,1.5555555555555556
+Obstacle Density,obstacle_density,0.25,12,A*,8,8,0.25,3,12,12,1,5,True,36,326,2.848199917934835,1,14,1.0
+Obstacle Density,obstacle_density,0.25,13,UCS,8,8,0.25,3,12,12,1,5,True,63,283,1.890400075353682,1,20,1.0
+Obstacle Density,obstacle_density,0.25,13,Greedy Best-First,8,8,0.25,3,12,12,1,5,True,65,91,0.963800004683435,1,22,1.0317460317460319
+Obstacle Density,obstacle_density,0.25,13,A*,8,8,0.25,3,12,12,1,5,True,63,235,1.9803999457508326,1,20,1.0
+Obstacle Density,obstacle_density,0.25,14,UCS,8,8,0.25,3,12,12,1,5,True,47,186,1.3144999975338578,1,16,1.0
+Obstacle Density,obstacle_density,0.25,14,Greedy Best-First,8,8,0.25,3,12,12,1,5,True,58,25,0.3093000268563628,1,16,1.2340425531914894
+Obstacle Density,obstacle_density,0.25,14,A*,8,8,0.25,3,12,12,1,5,True,47,139,1.545500010251999,1,16,1.0
+Obstacle Density,obstacle_density,0.25,15,UCS,8,8,0.25,3,12,12,1,5,True,50,288,2.045900095254183,1,16,1.0
+Obstacle Density,obstacle_density,0.25,15,Greedy Best-First,8,8,0.25,3,12,12,1,5,True,64,123,1.2880000285804272,1,16,1.28
+Obstacle Density,obstacle_density,0.25,15,A*,8,8,0.25,3,12,12,1,5,True,50,251,2.1366000873968005,1,16,1.0
+Obstacle Density,obstacle_density,0.25,16,UCS,8,8,0.25,3,12,12,1,5,True,42,349,2.487199963070452,1,14,1.0
+Obstacle Density,obstacle_density,0.25,16,Greedy Best-First,8,8,0.25,3,12,12,1,5,True,63,59,0.5877999356016517,1,18,1.5
+Obstacle Density,obstacle_density,0.25,16,A*,8,8,0.25,3,12,12,1,5,True,42,220,2.242900081910193,1,14,1.0
+Obstacle Density,obstacle_density,0.25,17,UCS,8,8,0.25,3,12,12,1,5,True,51,174,1.1924999998882413,1,14,1.0
+Obstacle Density,obstacle_density,0.25,17,Greedy Best-First,8,8,0.25,3,12,12,1,5,True,51,49,0.5095999222248793,1,14,1.0
+Obstacle Density,obstacle_density,0.25,17,A*,8,8,0.25,3,12,12,1,5,True,51,153,1.5981999458745122,1,14,1.0
+Obstacle Density,obstacle_density,0.25,18,UCS,8,8,0.25,3,12,12,1,5,True,54,287,5.798300029709935,1,14,1.0
+Obstacle Density,obstacle_density,0.25,18,Greedy Best-First,8,8,0.25,3,12,12,1,5,True,59,79,1.1659000301733613,1,14,1.0925925925925926
+Obstacle Density,obstacle_density,0.25,18,A*,8,8,0.25,3,12,12,1,5,True,54,284,3.2036000629886985,1,14,1.0
+Obstacle Density,obstacle_density,0.25,19,UCS,8,8,0.25,3,12,12,1,5,True,49,218,1.8566000508144498,1,16,1.0
+Obstacle Density,obstacle_density,0.25,19,Greedy Best-First,8,8,0.25,3,12,12,1,5,True,50,23,0.2908000024035573,1,14,1.0204081632653061
+Obstacle Density,obstacle_density,0.25,19,A*,8,8,0.25,3,12,12,1,5,True,49,184,1.867300015874207,1,16,1.0
+Obstacle Density,obstacle_density,0.35,0,UCS,8,8,0.35,3,12,12,1,5,True,39,286,2.3463000543415546,1,16,1.0
+Obstacle Density,obstacle_density,0.35,0,Greedy Best-First,8,8,0.35,3,12,12,1,5,True,60,46,0.5046000005677342,1,20,1.5384615384615385
+Obstacle Density,obstacle_density,0.35,0,A*,8,8,0.35,3,12,12,1,5,True,39,260,2.1349999587982893,1,16,1.0
+Obstacle Density,obstacle_density,0.35,1,UCS,8,8,0.35,3,12,12,1,5,True,61,264,1.808399916626513,1,14,1.0
+Obstacle Density,obstacle_density,0.35,1,Greedy Best-First,8,8,0.35,3,12,12,1,5,True,70,19,0.2319000195711851,1,14,1.1475409836065573
+Obstacle Density,obstacle_density,0.35,1,A*,8,8,0.35,3,12,12,1,5,True,61,211,2.123399986885488,1,14,1.0
+Obstacle Density,obstacle_density,0.35,2,UCS,8,8,0.35,3,12,12,1,5,True,48,337,2.265300019644201,1,14,1.0
+Obstacle Density,obstacle_density,0.35,2,Greedy Best-First,8,8,0.35,3,12,12,1,5,True,62,65,0.6627999246120453,1,16,1.2916666666666667
+Obstacle Density,obstacle_density,0.35,2,A*,8,8,0.35,3,12,12,1,5,True,48,312,2.6111999759450555,1,14,1.0
+Obstacle Density,obstacle_density,0.35,3,UCS,8,8,0.35,3,12,12,1,5,True,54,145,1.1184999020770192,1,14,1.0
+Obstacle Density,obstacle_density,0.35,3,Greedy Best-First,8,8,0.35,3,12,12,1,5,True,73,26,0.3250000299885869,1,16,1.3518518518518519
+Obstacle Density,obstacle_density,0.35,3,A*,8,8,0.35,3,12,12,1,5,True,54,111,1.0062999790534377,1,14,1.0
+Obstacle Density,obstacle_density,0.35,4,UCS,8,8,0.35,3,12,12,1,5,True,47,140,1.0212999768555164,1,16,1.0
+Obstacle Density,obstacle_density,0.35,4,Greedy Best-First,8,8,0.35,3,12,12,1,5,True,58,76,0.6940000457689166,1,16,1.2340425531914894
+Obstacle Density,obstacle_density,0.35,4,A*,8,8,0.35,3,12,12,1,5,True,47,131,1.3722999719902873,1,16,1.0
+Obstacle Density,obstacle_density,0.35,5,UCS,8,8,0.35,3,12,12,1,5,True,31,234,1.630999962799251,1,14,1.0
+Obstacle Density,obstacle_density,0.35,5,Greedy Best-First,8,8,0.35,3,12,12,1,5,True,41,86,0.7947999984025955,1,14,1.3225806451612903
+Obstacle Density,obstacle_density,0.35,5,A*,8,8,0.35,3,12,12,1,5,True,31,216,1.8689000280573964,1,14,1.0
+Obstacle Density,obstacle_density,0.35,6,UCS,8,8,0.35,3,12,12,1,5,True,48,178,1.1795000173151493,1,14,1.0
+Obstacle Density,obstacle_density,0.35,6,Greedy Best-First,8,8,0.35,3,12,12,1,5,True,49,23,0.24690001737326384,1,14,1.0208333333333333
+Obstacle Density,obstacle_density,0.35,6,A*,8,8,0.35,3,12,12,1,5,True,48,145,1.2384000001475215,1,14,1.0
+Obstacle Density,obstacle_density,0.35,7,UCS,8,8,0.35,3,12,12,1,5,True,45,247,1.7961999401450157,1,14,1.0
+Obstacle Density,obstacle_density,0.35,7,Greedy Best-First,8,8,0.35,3,12,12,1,5,True,47,42,0.4293998936191201,1,14,1.0444444444444445
+Obstacle Density,obstacle_density,0.35,7,A*,8,8,0.35,3,12,12,1,5,True,45,181,1.5124999918043613,1,14,1.0
+Obstacle Density,obstacle_density,0.35,8,UCS,8,8,0.35,3,12,12,1,5,True,51,272,2.179799950681627,1,14,1.0
+Obstacle Density,obstacle_density,0.35,8,Greedy Best-First,8,8,0.35,3,12,12,1,5,True,54,62,0.6004000315442681,1,14,1.0588235294117647
+Obstacle Density,obstacle_density,0.35,8,A*,8,8,0.35,3,12,12,1,5,True,51,213,1.8707000417634845,1,14,1.0
+Obstacle Density,obstacle_density,0.35,9,UCS,8,8,0.35,3,12,12,1,5,True,35,366,3.027800004929304,1,14,1.0
+Obstacle Density,obstacle_density,0.35,9,Greedy Best-First,8,8,0.35,3,12,12,1,5,True,65,55,0.5572999361902475,1,18,1.8571428571428572
+Obstacle Density,obstacle_density,0.35,9,A*,8,8,0.35,3,12,12,1,5,True,35,356,3.0169999226927757,1,14,1.0
+Obstacle Density,obstacle_density,0.35,10,UCS,8,8,0.35,3,12,12,1,5,True,69,148,1.2722000246867537,1,20,1.0
+Obstacle Density,obstacle_density,0.35,10,Greedy Best-First,8,8,0.35,3,12,12,1,5,True,69,42,0.5216000135987997,1,20,1.0
+Obstacle Density,obstacle_density,0.35,10,A*,8,8,0.35,3,12,12,1,5,True,69,133,1.0610000463202596,1,20,1.0
+Obstacle Density,obstacle_density,0.35,11,UCS,8,8,0.35,3,12,12,1,5,True,44,302,1.9151000306010246,1,16,1.0
+Obstacle Density,obstacle_density,0.35,11,Greedy Best-First,8,8,0.35,3,12,12,1,5,True,50,54,0.4990999586880207,1,16,1.1363636363636365
+Obstacle Density,obstacle_density,0.35,11,A*,8,8,0.35,3,12,12,1,5,True,44,243,1.9446000223979354,1,16,1.0
+Obstacle Density,obstacle_density,0.35,12,UCS,8,8,0.35,3,12,12,1,5,True,44,169,1.0899999178946018,1,14,1.0
+Obstacle Density,obstacle_density,0.35,12,Greedy Best-First,8,8,0.35,3,12,12,1,5,True,60,51,0.4949000431224704,1,14,1.3636363636363635
+Obstacle Density,obstacle_density,0.35,12,A*,8,8,0.35,3,12,12,1,5,True,44,151,1.2320000678300858,1,14,1.0
+Obstacle Density,obstacle_density,0.35,13,UCS,8,8,0.35,3,12,12,1,5,True,53,191,1.2889000354334712,1,16,1.0
+Obstacle Density,obstacle_density,0.35,13,Greedy Best-First,8,8,0.35,3,12,12,1,5,True,53,60,0.5786999827250838,1,16,1.0
+Obstacle Density,obstacle_density,0.35,13,A*,8,8,0.35,3,12,12,1,5,True,53,162,1.3457000022754073,1,16,1.0
+Obstacle Density,obstacle_density,0.35,14,UCS,8,8,0.35,3,12,12,1,5,True,51,158,1.117600011639297,1,16,1.0
+Obstacle Density,obstacle_density,0.35,14,Greedy Best-First,8,8,0.35,3,12,12,1,5,True,55,24,0.2707000821828842,1,16,1.0784313725490196
+Obstacle Density,obstacle_density,0.35,14,A*,8,8,0.35,3,12,12,1,5,True,51,115,0.9663000237196684,1,16,1.0
+Obstacle Density,obstacle_density,0.35,15,UCS,8,8,0.35,3,12,12,1,5,True,40,318,2.2067000390961766,1,14,1.0
+Obstacle Density,obstacle_density,0.35,15,Greedy Best-First,8,8,0.35,3,12,12,1,5,True,58,22,0.25889999233186245,1,16,1.45
+Obstacle Density,obstacle_density,0.35,15,A*,8,8,0.35,3,12,12,1,5,True,40,314,2.7509001083672047,1,14,1.0
+Obstacle Density,obstacle_density,0.35,16,UCS,8,8,0.35,3,12,12,1,5,True,47,217,1.4594999374821782,1,14,1.0
+Obstacle Density,obstacle_density,0.35,16,Greedy Best-First,8,8,0.35,3,12,12,1,5,True,60,39,0.3915999550372362,1,18,1.2765957446808511
+Obstacle Density,obstacle_density,0.35,16,A*,8,8,0.35,3,12,12,1,5,True,47,163,1.3309000059962273,1,14,1.0
+Obstacle Density,obstacle_density,0.35,17,UCS,8,8,0.35,3,12,12,1,5,True,42,105,0.7091000443324447,1,16,1.0
+Obstacle Density,obstacle_density,0.35,17,Greedy Best-First,8,8,0.35,3,12,12,1,5,True,48,48,0.46399992424994707,1,16,1.1428571428571428
+Obstacle Density,obstacle_density,0.35,17,A*,8,8,0.35,3,12,12,1,5,True,42,96,0.8114000083878636,1,16,1.0
+Obstacle Density,obstacle_density,0.35,18,UCS,8,8,0.35,3,12,12,1,5,True,52,198,1.7883999971672893,1,14,1.0
+Obstacle Density,obstacle_density,0.35,18,Greedy Best-First,8,8,0.35,3,12,12,1,5,True,61,17,0.2348999259993434,1,14,1.1730769230769231
+Obstacle Density,obstacle_density,0.35,18,A*,8,8,0.35,3,12,12,1,5,True,52,172,2.087300061248243,1,14,1.0
+Obstacle Density,obstacle_density,0.35,19,UCS,8,8,0.35,3,12,12,1,5,True,52,141,0.9315999923273921,1,14,1.0
+Obstacle Density,obstacle_density,0.35,19,Greedy Best-First,8,8,0.35,3,12,12,1,5,True,54,46,0.4759000148624182,1,14,1.0384615384615385
+Obstacle Density,obstacle_density,0.35,19,A*,8,8,0.35,3,12,12,1,5,True,52,128,1.4776999596506357,1,14,1.0
