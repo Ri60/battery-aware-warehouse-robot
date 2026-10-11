@@ -794,6 +794,34 @@ The project does not currently include:
 
 These limitations keep the project focused on controlled comparison of the required AI search algorithms.
 
+## Representative Failure Cases
+
+### Insufficient Battery and Charger Access
+
+A warehouse may contain a geometric path from the start to the goal but still have no battery-feasible solution.
+
+For example, if the robot cannot reach a charging station before its battery reaches zero, the search correctly reports failure even though open grid cells connect the start and goal.
+
+This is why battery level is included directly in the search state.
+
+### Greedy Best-First Search Can Choose an Expensive Route
+
+Greedy Best-First Search chooses states using only the heuristic estimate to the goal.
+
+A route that appears geometrically closer to the goal may contain high movement-time edge costs. Greedy can therefore reach the goal using fewer node expansions while producing a more expensive route than UCS or A*.
+
+The baseline experiments demonstrate this behaviour:
+
+- UCS average cost: 41.10
+- A* average cost: 41.10
+- Greedy average cost: 57.55
+
+### Resource-Limited Unsolvable Maps
+
+The unrestricted warehouse generator intentionally allows unsolvable instances.
+
+These cases are useful when evaluating battery capacity and charger availability because failure rate is part of the experimental result rather than an error in the program.
+
 # Course
 
 SOFE 3720
@@ -810,9 +838,20 @@ The program displays the warehouse, selected route, and algorithm comparison dir
 
 ![Warehouse robot demo](docs/demo.png)
 
+### Charging-Required Scenario
 
+Run the interactive program:
 
+```bash
+python main.py
+```
 
+Select:
 
+```text
+3 - Charging-required test map
+```
+
+This predefined scenario requires the robot to use a charging station in order to successfully reach the goal. It provides a simple demonstration that battery state and charging behaviour are integrated into the search problem rather than being used only for experimental statistics.
 
 
