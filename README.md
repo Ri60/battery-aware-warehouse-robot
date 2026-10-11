@@ -1,10 +1,8 @@
 # Battery-Aware Warehouse Delivery Robot
 
-
+[![Python tests](https://github.com/Ri60/battery-aware-warehouse-robot/actions/workflows/tests.yml/badge.svg)](https://github.com/Ri60/battery-aware-warehouse-robot/actions/workflows/tests.yml)
 
 ## SOFE 3720 - Introduction to Artificial Intelligence
-
-
 
 This project implements and evaluates a battery-aware route-planning agent in a simulated warehouse environment.
 
@@ -853,5 +851,6 @@ Select:
 ```
 
 This predefined scenario requires the robot to use a charging station in order to successfully reach the goal. It provides a simple demonstration that battery state and charging behaviour are integrated into the search problem rather than being used only for experimental statistics.
+
 
 
