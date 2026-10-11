@@ -748,6 +748,12 @@ Battery-Aware Warehouse Delivery Robot
 
 Group 7
 
+## Demo
+
+The program displays the warehouse, selected route, and algorithm comparison directly in the terminal.
+
+![Warehouse robot demo](docs/demo.png)
+
 
 
 
