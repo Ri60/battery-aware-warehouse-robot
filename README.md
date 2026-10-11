@@ -306,7 +306,7 @@ G = Goal
 
 C = Charger
 
-# = Blocked cell
+-`#` = Blocked cell
 
 * = Selected route
 
@@ -706,6 +706,62 @@ Generated charts are stored in:
 
 results/charts/
 
+## Final Analysis
+
+### A* Compared with Uniform Cost Search
+
+A* and UCS produced the same average optimal solution cost in the baseline experiments, but A* generally expanded fewer states.
+
+In the 8x8 baseline:
+
+- UCS average cost: 41.10
+- UCS average nodes expanded: 310.25
+- A* average cost: 41.10
+- A* average nodes expanded: 264.10
+
+This shows that A* preserved the solution quality of UCS while reducing the amount of search required.
+
+### Effect of the Heuristic
+
+The heuristic reduces search effort by guiding A* toward states that appear closer to the goal.
+
+With h = 0, A* behaves like UCS and expanded an average of 310.25 states.
+
+Using a weaker heuristic reduced this to 287.75 states, while the full Manhattan-based heuristic reduced it further to 264.10 states.
+
+The solution cost remained unchanged, showing that a stronger admissible heuristic improved search efficiency without sacrificing optimality.
+
+### Greedy Best-First Search Trade-Off
+
+Greedy Best-First Search expanded far fewer states because it considers only the heuristic estimate h(n).
+
+In the baseline:
+
+- Greedy average nodes expanded: 37.50
+- Greedy average cost: 57.55
+- UCS optimal average cost: 41.10
+
+This demonstrates the trade-off between computational effort and solution quality. Greedy can find a route using much less search, but it may choose a more expensive route because it ignores the accumulated path cost.
+
+### Conditions Affecting Algorithm Performance
+
+UCS performs reliably when an optimal solution is required, but it may explore many states because it has no heuristic guidance.
+
+A* performs well when the heuristic provides useful guidance. It typically expands fewer states than UCS while maintaining optimal solution quality.
+
+Greedy performs well when reducing search effort is more important than guaranteeing the lowest-cost route. It can perform poorly when the most direct-looking route has expensive movement costs or when battery and charging constraints make a different route more suitable.
+
+Larger maps and longer start-to-goal distances generally increase the number of states explored.
+
+Battery capacity and charger availability mainly affect whether a feasible route exists. Lower battery capacity and fewer chargers produced more failed runs.
+
+### Main Trade-Off
+
+The main trade-off observed in the project is between solution quality and search effort.
+
+- UCS prioritizes optimality but may perform more search.
+- Greedy minimizes search effort but may sacrifice solution quality.
+- A* provides the best balance in our experiments by using both accumulated path cost and heuristic guidance.
 
 
 # Current Limitations
@@ -753,6 +809,7 @@ Group 7
 The program displays the warehouse, selected route, and algorithm comparison directly in the terminal.
 
 ![Warehouse robot demo](docs/demo.png)
+
 
 
 
